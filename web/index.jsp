@@ -25,8 +25,7 @@
             </div>
             <div class="col-md-2"></div>
             <div class="col-md-3"><i class="fa fa-user" aria-hidden="true"></i> <%=usuario.getNome()%>
-                <img class="img-fluid rounded-circle" src="<%="../"+usuario.getPathFoto()%>" alt="foto usuario" width="50px"
-                     height="">
+                <img class="img-fluid" style="border-radius: 100%" src="<%="../"+usuario.getPathFoto()%>" alt="foto usuario" width="50px">
                 <a class="links" href="../autentica_usuario">Sair</a>
             </div>
             <div class="col-md-2"><a class="links" href=""><i class="fa fa-cart-plus" aria-hidden="true"></i> $0,00</a>
@@ -353,34 +352,43 @@
 
 
 <!--Footer-->
-<footer class="text-dark pt-4 mt-4">
+<footer class="bg-dark text-light pt-4 mt-4">
 
     <!--Footer Links-->
     <div class="container-fluid text-center text-md-left">
         <div class="row">
 
             <!--First column-->
-            <div class="col-md-6">
-                <h5 class="text-uppercase">Footer Content</h5>
-                <p>Here you can use rows and columns here to organize your footer content.</p>
+            <div class="col-md-4">
+                <h5 class=""></h5>
+                <p></p>
             </div>
             <!--/.First column-->
 
+            <div class="col-md-4">
+                <h5>Contato</h5>
+                <ul>
+                    <li><a href=""></a>Telefone:</li>
+                    <li><a href=""></a>Endereço:</li>
+                    <li><a href=""></a>E-mail:</li>
+                </ul>
+            </div>
+
             <!--Second column-->
-            <div class="col-md-6">
-                <h5 class="text-uppercase">Links</h5>
+            <div class="col-md-4">
+                <h5 class="text-uppercase">Redes Sociais</h5>
                 <ul class="">
                     <li>
-                        <a href="#!">Link 1</a>
+                        <a href="#!">FaceBook</a>
                     </li>
                     <li>
-                        <a href="#!">Link 2</a>
+                        <a href="#!">Twitter</a>
                     </li>
                     <li>
-                        <a href="#!">Link 3</a>
+                        <a href="#!">Google++</a>
                     </li>
                     <li>
-                        <a href="#!">Link 4</a>
+                        <a href="#!">Instagran</a>
                     </li>
                 </ul>
             </div>
@@ -390,9 +398,8 @@
     <!--/.Footer Links-->
 
     <!--Copyright-->
-    <div class="text-center text-dark">
-        <p class="text-dark">© 2018 Copyright:</p>
-        <a class="text-light" href="index.jsp"> WebComércio.com </a>
+    <div class="container-fluid text-center bg-dark">
+        <p class="text-light">© 2018 Copyright:<a class="text-light" href="index.jsp"> WebComércio.com </a></p>
     </div>
     <!--/.Copyright-->
 

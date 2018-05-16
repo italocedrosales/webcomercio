@@ -1,6 +1,7 @@
-<%@ page import="br.edu.ifs.model.Usuario" %>
-<%@ page contentType="text/html;charset=UTF-8" %>
-<html>
+<%@ page import="br.edu.ifs.model.Usuario"%>
+<%@ page contentType="text/html;charset=UTF-8"%>
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
     <title>Web-Comércio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

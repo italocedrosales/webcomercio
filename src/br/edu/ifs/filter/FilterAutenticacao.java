@@ -35,7 +35,8 @@ public class FilterAutenticacao implements Filter {
                 || url.lastIndexOf("autentica_usuario") != -1
                 || url.lastIndexOf("index.jsp") != -1
                 || url.lastIndexOf("node_modules") != -1
-                || url.lastIndexOf("crudUsuario/cadastraUsuario.jsp") != -1
+                || url.lastIndexOf("crudUsuario/listaUsuario") != -1
+                || url.lastIndexOf("crudUsuario/") != -1
                 || url.lastIndexOf("crudUsuario/listaUsuario.jsp") != -1
                 || url.lastIndexOf("img") != -1) {
 

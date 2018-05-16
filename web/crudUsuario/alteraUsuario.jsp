@@ -6,21 +6,23 @@
     <title>Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<%=request.getContextPath()%>../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/fontawesome-free-5.0.10/web-fonts-with-css/css/fontawesome-all.css">
+    <link rel="stylesheet" href="../node_modules/css/index.css">
 </head>
 <body>
 <%
-    Usuario usuario = (Usuario)
+    Usuario usuario1 = (Usuario)
             request.getSession().getAttribute("usuarioAutenticado");
-    if (usuario != null) {%>
+    if (usuario1 != null) {%>
 
 <div class="container-fluid bg-info d-none d-md-block d-block">
     <div class="container">
         <div class="row text-light pt-2 pb-2">
-            <div class="col-md-5"><i class="fa fa-envelope" aria-hidden="true"></i> <%=usuario.getEmail()%>
+            <div class="col-md-5"><i class="fa fa-envelope" aria-hidden="true"></i> <%=usuario1.getEmail()%>
             </div>
             <div class="col-md-2"></div>
-            <div class="col-md-3"><i class="fa fa-user" aria-hidden="true"></i> <%=usuario.getNome()%>
-                <img class="img-fluid" src="<%="../"+usuario.getPathFoto()%>" alt="foto usuario" width="50px"
+            <div class="col-md-3"><i class="fa fa-user" aria-hidden="true"></i> <%=usuario1.getNome()%>
+                <img class="img-fluid" src="<%="../"+usuario1.getPathFoto()%>" alt="foto usuario" width="50px"
                      height="50px">
                 <a class="links" href="../autentica_usuario">Sair</a>
             </div>
@@ -76,7 +78,7 @@
             UsuarioDAO dao = new UsuarioDAO();
             Usuario usuario = dao.getUsuario(id);
         %>
-        <form action="../altera_usuario" method="get">
+        <form action="../altera_usuario" method="post">
             <input type="hidden" name="idUsuario" value="<%=usuario.getIdUsuario()%>">
             <div class="form-group">
                 <label for="cpfcnpj">CPF/CNPJ:</label>
@@ -100,7 +102,36 @@
             </div>
             <div class="form-group">
                 <label for="estado">Estado:</label>
-                <input class="form-control" type="text" id="estado" name="estado" value="<%=usuario.getEstado()%>">
+                <select class="form-control" id="estado" name="estado">
+                    <option value=""><%=usuario.getEstado()%></option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
             </div>
             <div class="form-group">
                 <label for="telefone">Telefone:</label>
@@ -113,8 +144,11 @@
             </div>
             <div class="form-group">
                 <label for="tipoUsuario">Tipo de Usuario:</label>
-                <input class="form-control" type="text" id="tipoUsuario" name="tipoUsuario"
-                       value="<%=usuario.getTipoUsuario()%>">
+                <select class="form-control" id="tipoUsuario" name="tipoUsuario">
+                    <option value=""><%=usuario.getTipoUsuario()%></option>
+                    <option value="1">1°- Usuário</option>
+                    <option value="2">2°- Logista</option>
+                </select>
             </div>
             <div class="form-group">
                 <label for="foto">Foto:</label>
@@ -122,7 +156,7 @@
             </div>
 
             <%--Botões--%>
-            <input class="btn btn-primary" type="submit" value="Gravar">
+            <input class="btn btn-primary" type="submit" value="Alterar">
             <input class="btn btn-primary" type="button" value="Cancelar"
                    onclick="window.location.assign('listaUsuario.jsp')">
         </form>

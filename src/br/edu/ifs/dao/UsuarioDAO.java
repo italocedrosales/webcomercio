@@ -27,7 +27,7 @@ public class UsuarioDAO {
     }
 
     public int insert(Usuario usuario) {
-        String sql = "INSERT INTO usuario(cpfcnpj, nome, rua, numero, cidade, estado, telefone, email, tipousuario, senha) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+        String sql = "INSERT INTO usuario(cpfcnpj, nome, rua, numero, cidade, estado, telefone, email, tipousuario, senha) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, MD5(?))";
         int id = 0;
 
         try {
@@ -43,6 +43,8 @@ public class UsuarioDAO {
             stmt.setString(8, usuario.getEmail());
             stmt.setInt(9, usuario.getTipoUsuario());
             stmt.setString(10, usuario.getSenha());
+
+
 
             stmt.execute();
 
@@ -103,7 +105,7 @@ public class UsuarioDAO {
     }
 
     public void update(Usuario usuario) {
-        String sql = "UPDATE usuario SET cpfcnpj=?, nome=?, rua=?, numero=?, cidade=?, estado=?, telefone=?, email=?, tipousuario=?, senha=?, path_foto=? WHERE idUsuario=?";
+        String sql = "UPDATE usuario SET cpfcnpj=?, nome=?, rua=?, numero=?, cidade=?, estado=?, telefone=?, email=?, tipousuario=?, senha=MD5(?), path_foto=? WHERE idUsuario=?";
 
         try {
             PreparedStatement stmt = connection.prepareStatement(sql);
@@ -181,7 +183,7 @@ public class UsuarioDAO {
 
     public Usuario autenticaUsuario(Usuario usuLogin) {
 
-        String sql = "SELECT * FROM usuario WHERE email = ? and senha = ?";
+        String sql = "SELECT * FROM usuario WHERE email = ? and senha = MD5(?)";
         try {
             // prepared statement para inserção
             PreparedStatement stmt = connection.prepareStatement(sql);

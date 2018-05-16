@@ -59,6 +59,7 @@ public class CadastraUsuario extends HttpServlet {
         UsuarioDAO dao = new UsuarioDAO();
         id = dao.insert(usuario);
         System.out.println(id);
+
         // Pega o path absoluto da aplicação web
         String appPath = request.getServletContext().getRealPath("");
 

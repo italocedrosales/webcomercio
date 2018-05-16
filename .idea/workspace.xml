@@ -6,7 +6,39 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="675f1e9a-e3f8-43a5-9f6b-19689734b973" name="Default" comment="" />
+    <list default="true" id="675f1e9a-e3f8-43a5-9f6b-19689734b973" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/web/crudProduto/cadastraProduto.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/publica/contato.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/publica/sobre.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/WEB-INF/classes/br/edu/ifs/dao/UsuarioDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/WEB-INF/classes/br/edu/ifs/dao/UsuarioDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/WEB-INF/classes/br/edu/ifs/filter/FilterAutenticacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/WEB-INF/classes/br/edu/ifs/filter/FilterAutenticacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/WEB-INF/classes/br/edu/ifs/servletusuario/AlteraUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/WEB-INF/classes/br/edu/ifs/servletusuario/AlteraUsuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/WEB-INF/classes/br/edu/ifs/servletusuario/CadastraUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/WEB-INF/classes/br/edu/ifs/servletusuario/CadastraUsuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/WEB-INF/classes/teste/TesteInsertUsuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudUsuario/alteraUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudUsuario/alteraUsuario.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudUsuario/excluiUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudUsuario/excluiUsuario.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudUsuario/listaUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudUsuario/listaUsuario.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/perfil.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/publica/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/publica/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebComercio/br/edu/ifs/dao/UsuarioDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebComercio/br/edu/ifs/dao/UsuarioDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebComercio/br/edu/ifs/filter/FilterAutenticacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebComercio/br/edu/ifs/filter/FilterAutenticacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebComercio/br/edu/ifs/servletusuario/AlteraUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebComercio/br/edu/ifs/servletusuario/AlteraUsuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebComercio/br/edu/ifs/servletusuario/CadastraUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebComercio/br/edu/ifs/servletusuario/CadastraUsuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebComercio/teste/TesteInsertUsuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifs/dao/UsuarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifs/dao/UsuarioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifs/filter/FilterAutenticacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifs/filter/FilterAutenticacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifs/servletusuario/AlteraUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifs/servletusuario/AlteraUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifs/servletusuario/CadastraUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifs/servletusuario/CadastraUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/teste/TesteInsertUsuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/crudUsuario/alteraUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/crudUsuario/alteraUsuario.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/crudUsuario/cadastraUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/crudUsuario/cadastraUsuario.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/crudUsuario/excluiUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/crudUsuario/excluiUsuario.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/crudUsuario/listaUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/crudUsuario/listaUsuario.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/perfil.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/publica/perfil.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,38 +66,53 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1062">
-              <caret line="59" column="46" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
+            <state relative-caret-position="144">
+              <caret line="8" column="114" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="114" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/publica/login.jsp">
+      <file leaf-file-name="listaUsuario.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/crudUsuario/listaUsuario.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="162">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="perfil.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/perfil.jsp">
+      <file leaf-file-name="alteraUsuario.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/crudUsuario/alteraUsuario.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7">
-              <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
-              <folding>
-                <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="144">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProdutoDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/dao/ProdutoDAO.java">
+      <file leaf-file-name="cadastraUsuario.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/crudUsuario/cadastraUsuario.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1998">
-              <caret line="124" column="45" selection-start-line="124" selection-start-column="45" selection-end-line="124" selection-end-column="45" />
+            <state relative-caret-position="252">
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="excluiUsuario.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/crudUsuario/excluiUsuario.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cadastraProduto.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/crudProduto/cadastraProduto.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -103,26 +150,29 @@
         <option value="$PROJECT_DIR$/web/node_modules/style.css" />
         <option value="$PROJECT_DIR$/web/node_modules/css/animate.css" />
         <option value="$PROJECT_DIR$/web/node_modules/js/my.js" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/servletusuario/AlteraUsuario.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifs/model/Usuario.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifs/autenticausuario/AutenticaUsuario.java" />
         <option value="$PROJECT_DIR$/web/node_modules/css/style.css" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/dao/UsuarioDAO.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifs/servletusuario/UsuarioDao.java" />
         <option value="$PROJECT_DIR$/web/node_modules/css/index.css" />
         <option value="$PROJECT_DIR$/src/br/edu/ifs/filter/Filter.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifs/servletusuario/AutenticaUsuario.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifs/servletusuario/ExcluiUsuario.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifs/dao/ProdutoDAO.java" />
+        <option value="$PROJECT_DIR$/web/publica/login.jsp" />
+        <option value="$PROJECT_DIR$/web/perfil.jsp" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifs/dao/UsuarioDAO.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifs/servletusuario/CadastraUsuario.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifs/servletusuario/AlteraUsuario.java" />
+        <option value="$PROJECT_DIR$/web/publica/sobre.jsp" />
+        <option value="$PROJECT_DIR$/web/publica/contato.jsp" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifs/filter/FilterAutenticacao.java" />
+        <option value="$PROJECT_DIR$/web/crudProduto/cadastraProduto.jsp" />
+        <option value="$PROJECT_DIR$/web/crudUsuario/listaUsuario.jsp" />
         <option value="$PROJECT_DIR$/web/crudUsuario/alteraUsuario.jsp" />
         <option value="$PROJECT_DIR$/web/crudUsuario/cadastraUsuario.jsp" />
         <option value="$PROJECT_DIR$/web/crudUsuario/excluiUsuario.jsp" />
-        <option value="$PROJECT_DIR$/web/crudUsuario/listaUsuario.jsp" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/filter/FilterAutenticacao.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/servletusuario/CadastraUsuario.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/servletusuario/ExcluiUsuario.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/dao/ProdutoDAO.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/publica/login.jsp" />
-        <option value="$PROJECT_DIR$/web/perfil.jsp" />
       </list>
     </option>
   </component>
@@ -153,11 +203,11 @@
       <path value="$PROJECT_DIR$/web/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="707" />
-    <option name="y" value="24" />
-    <option name="width" value="659" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="228" />
+    <option name="y" value="-1" />
+    <option name="width" value="961" />
+    <option name="height" value="720" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -167,8 +217,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,31 +229,30 @@
             <path>
               <item name="WebComercio" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebComercio" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebComercio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebComercio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ifs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebComercio" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebComercio" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebComercio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebComercio" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="publica" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../alterar foto.jsp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -213,19 +262,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web/img" />
-      <recent name="$PROJECT_DIR$/web/node_modules/css" />
-      <recent name="$PROJECT_DIR$/web" />
-      <recent name="$PROJECT_DIR$/web/WEB-INF" />
-      <recent name="$PROJECT_DIR$/web/META-INF" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.edu.ifs.servletusuario" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/node_modules/js" />
       <recent name="$PROJECT_DIR$/web/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/publica" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF" />
+      <recent name="$PROJECT_DIR$/web/crudUsuario" />
+      <recent name="$PROJECT_DIR$/web/img" />
+      <recent name="$PROJECT_DIR$/web/node_modules/css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -401,12 +450,24 @@
       <workItem from="1526076948404" duration="6264000" />
       <workItem from="1526325946553" duration="351000" />
       <workItem from="1526326466646" duration="455000" />
-      <workItem from="1526327104140" duration="1072000" />
+      <workItem from="1526327104140" duration="1572000" />
+      <workItem from="1526328830196" duration="470000" />
+      <workItem from="1526329419655" duration="335000" />
+      <workItem from="1526329873072" duration="115000" />
+      <workItem from="1526330109076" duration="75000" />
+      <workItem from="1526330265520" duration="202000" />
+      <workItem from="1526331889001" duration="42000" />
+      <workItem from="1526331979335" duration="94000" />
+      <workItem from="1526332109249" duration="2764000" />
+      <workItem from="1526337441028" duration="7256000" />
+      <workItem from="1526348662436" duration="4628000" />
+      <workItem from="1526427303875" duration="3995000" />
+      <workItem from="1526512699458" duration="1402000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215551000" />
+    <option name="totallyTimeSpent" value="237429000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -418,33 +479,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="-11" width="1319" height="780" extended-state="7" />
+    <frame x="48" y="-11" width="1319" height="780" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.329582" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.329582" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.329582" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.329582" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32941177" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40353698" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.89067525" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="1" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49196142" visible="true" weight="0.23016496" />
-      <window_info id="Web" order="5" sideWeight="0.5080386" side_tool="true" weight="0.16601102" />
       <window_info anchor="right" id="Database" order="5" weight="0.32941177" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24941176" />
       <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38225806" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329582" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32903227" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.329582" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43729904" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.6254019" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.4903537" weight="0.19324431" />
+      <window_info id="Web" order="5" sideWeight="0.5096463" side_tool="true" weight="0.21916732" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38225806" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32903227" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -456,33 +518,33 @@
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.329582" />
       <window_info id="Designer" order="1" />
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43729904" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40353698" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24941176" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3279743" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.6254019" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.329582" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32903227" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329582" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49196142" visible="true" weight="0.15263572" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.329582" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32941177" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.4903537" weight="0.19324431" />
       <window_info anchor="right" id="Database" order="5" weight="0.32941177" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Web" order="5" sideWeight="0.5080386" side_tool="true" weight="0.16601102" />
+      <window_info id="Web" order="5" sideWeight="0.5096463" side_tool="true" weight="0.21916732" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38225806" />
     </layout-to-restore>
   </component>
@@ -509,10 +571,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1062">
+          <caret line="59" column="46" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1062">
+          <caret line="59" column="46" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1062">
+          <caret line="59" column="46" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/publica/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/publica/perfil.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
         </state>
       </provider>
     </entry>
@@ -523,13 +613,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/perfil.jsp">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1062">
+          <caret line="59" column="46" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/publica/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/publica/perfil.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
-          <folding>
-            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="14" column="67" lean-forward="true" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/dao/ProdutoDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2232">
+          <caret line="124" column="45" selection-start-line="124" selection-start-column="45" selection-end-line="124" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -554,7 +662,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/perfil.jsp">
+    <entry file="file://$PROJECT_DIR$/web/publica/perfil.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1062">
+          <caret line="59" column="46" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/publica/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/dao/ProdutoDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2232">
+          <caret line="124" column="45" selection-start-line="124" selection-start-column="45" selection-end-line="124" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/publica/perfil.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1062">
+          <caret line="59" column="46" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/publica/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/dao/ProdutoDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2232">
+          <caret line="124" column="45" selection-start-line="124" selection-start-column="45" selection-end-line="124" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/publica/perfil.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
@@ -582,7 +746,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/perfil.jsp">
+    <entry file="file://$PROJECT_DIR$/web/publica/perfil.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="67" lean-forward="true" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
@@ -606,20 +770,6 @@
     <entry file="file://$PROJECT_DIR$/web/img/cama e banho.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1062">
-          <caret line="59" column="46" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/dao/ProdutoDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1998">
-          <caret line="124" column="45" selection-start-line="124" selection-start-column="45" selection-end-line="124" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/node_modules/css/login.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -629,18 +779,142 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/publica/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="18">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/perfil.jsp">
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/dao/ProdutoDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+        <state relative-caret-position="20">
+          <caret line="124" column="45" selection-start-line="124" selection-start-column="45" selection-end-line="124" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/model/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1152">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/servletproduto/ExcluiProduto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/servletproduto/CadastraProduto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../alterar foto.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1134" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/servletusuario/AlteraUsuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="28" column="76" selection-start-line="28" selection-start-column="76" selection-end-line="28" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/dao/UsuarioDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="122" column="54" selection-start-line="122" selection-start-column="54" selection-end-line="122" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/servletusuario/CadastraUsuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/filter/FilterAutenticacao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/publica/sobre.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/publica/perfil.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="67" lean-forward="true" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
           <folding>
             <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/publica/contato.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/crudProduto/cadastraProduto.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="114" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/crudUsuario/excluiUsuario.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/crudUsuario/cadastraUsuario.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/crudUsuario/listaUsuario.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/crudUsuario/alteraUsuario.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
         </state>
       </provider>
     </entry>

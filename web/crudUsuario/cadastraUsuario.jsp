@@ -12,7 +12,8 @@
     <title>Formulário</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../node_modules/css/style.css">
+    <link rel="stylesheet" href="../node_modules/fontawesome-free-5.0.10/web-fonts-with-css/css/fontawesome-all.css">
+    <link rel="stylesheet" href="../node_modules/css/index.css">
 </head>
 
 <body>

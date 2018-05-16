@@ -7,22 +7,24 @@
     <title>Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<%=request.getContextPath()%>../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/fontawesome-free-5.0.10/web-fonts-with-css/css/fontawesome-all.css">
+    <link rel="stylesheet" href="../node_modules/css/index.css">
 </head>
 <body class="bg-light">
 
 <%
-    Usuario usuario = (Usuario)
+    Usuario usuario1 = (Usuario)
             request.getSession().getAttribute("usuarioAutenticado");
-    if (usuario != null) {%>
+    if (usuario1 != null) {%>
 
 <div class="container-fluid bg-info d-none d-md-block d-block">
     <div class="container">
         <div class="row text-light pt-2 pb-2">
-            <div class="col-md-5"><i class="fa fa-envelope" aria-hidden="true"></i> <%=usuario.getEmail()%>
+            <div class="col-md-5"><i class="fa fa-envelope" aria-hidden="true"></i> <%=usuario1.getEmail()%>
             </div>
             <div class="col-md-2"></div>
-            <div class="col-md-3"><i class="fa fa-user" aria-hidden="true"></i> <%=usuario.getNome()%>
-                <img class="img-fluid" src="<%="../"+usuario.getPathFoto()%>" alt="foto usuario" width="50px"
+            <div class="col-md-3"><i class="fa fa-user" aria-hidden="true"></i> <%=usuario1.getNome()%>
+                <img class="img-fluid" src="<%="../"+usuario1.getPathFoto()%>" alt="foto usuario" width="50px"
                      height="50px">
                 <a class="links" href="../autentica_usuario">Sair</a>
             </div>
@@ -96,9 +98,7 @@
                 <%
                     UsuarioDAO dao = new UsuarioDAO();
                     List<Usuario> usuarios = dao.getListaUsuarios();
-
-                    for (Usuario usuario : usuarios) {
-
+                    for (Usuario usuario : usuarios ) {
                 %>
                 <tr>
                     <td><%=usuario.getIdUsuario()%>
