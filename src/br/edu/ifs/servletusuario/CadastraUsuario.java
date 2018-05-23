@@ -37,8 +37,6 @@ public class CadastraUsuario extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws IOException, ServletException {
 
-        System.out.println("CadastraUsuario.doPost()");
-
         //pega os parametros
         String cpfcnpj = request.getParameter("cpfcnpj");
         String nome = request.getParameter("nome");
@@ -76,15 +74,11 @@ public class CadastraUsuario extends HttpServlet {
         for (Part part : request.getParts()) {
             nomeArquivo = extractFileName(part);
             if (!nomeArquivo.equals("")) {
-                fileName = "usuario_" + id +
-                        nomeArquivo.substring(nomeArquivo.lastIndexOf('.'));
+                fileName = "usuario_" + id + nomeArquivo.substring(nomeArquivo.lastIndexOf('.'));
                 part.write(savePath + File.separator + fileName);
-
             }
         }
-        dao.gravaFoto(id, SAVE_DIR + File.separator + fileName);
-
-        System.out.println("Gravafoto()");
+        dao.gravaFoto(id, SAVE_DIR + "/" + fileName);
 
         response.sendRedirect("crudUsuario/listaUsuario.jsp");
 

@@ -20,6 +20,6 @@ public class ExcluiCategoria extends HttpServlet {
 
         dao.delete(idCategoria);
 
-        response.sendRedirect("crudCategoria/listaCategoria.jsp");
+        response.sendRedirect("publica/perfil.jsp");
     }
 }

@@ -1,13 +1,7 @@
-<%@ page import="br.edu.ifs.model.Usuario" %><%--
-  Created by IntelliJ IDEA.
-  User: italocedro
-  Date: 06/04/18
-  Time: 21:24
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" %>
+<%@ page import="br.edu.ifs.model.Usuario" %>
+<%@ page contentType="text/html;charset=UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
     <title>Formulário</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -66,6 +60,9 @@
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="../crudCategoria/cadastraCategoria.jsp">Cadastrar Categoria</a>
                         <a class="dropdown-item" href="../crudCategoria/listaCategoria.jsp">Listar Categoria</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="../crudProduto/cadastraProduto.jsp">Cadastra Produtos</a>
+                        <a class="dropdown-item" href="../crudProduto/listaProduto">Lista Produtos</a>
                     </div>
                 </li>
                 <li class="nav-item"><a class="btn btn-outline-info" href="../publica/login.jsp"> Minha Loja</a></li>
@@ -199,8 +196,7 @@
 
     <!--Copyright-->
     <div class="footer-copyright py-3 text-center">
-        © 2018 Copyright:
-        <a href="index.jsp"> WebComércio.com </a>
+        <p>© 2018 Copyright:<a href="../index.jsp"> WebComércio.com </a></p>
     </div>
     <!--/.Copyright-->
 

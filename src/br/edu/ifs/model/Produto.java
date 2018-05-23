@@ -2,8 +2,8 @@ package br.edu.ifs.model;
 
 public class Produto {
 	
-	public Produto(int idProduto, long codigoBarra, String nome, String descricao, String marca, String valor,
-			String modelo, int idUsuario, int idCategoria) {
+	public Produto(int idProduto, long codigoBarra, String nome, String descricao, String marca, float valor,
+			String modelo, int idUsuario, int idCategoria, String pathFoto) {
 		this.idProduto = idProduto;
 		this.codigoBarra = codigoBarra;
 		this.nome = nome;
@@ -13,9 +13,10 @@ public class Produto {
 		this.modelo = modelo;
 		IdUsuario = idUsuario;
 		IdCategoria = idCategoria;
+		this.pathFoto = pathFoto;
 	}
 	
-	public Produto(long codigoBarra, String nome, String descricao, String marca, String valor, String modelo,
+	public Produto(long codigoBarra, String nome, String descricao, String marca, float valor, String modelo,
 			int idUsuario, int idCategoria) {
 		this.codigoBarra = codigoBarra;
 		this.nome = nome;
@@ -27,7 +28,17 @@ public class Produto {
 		IdCategoria = idCategoria;
 	}
 
-	public Produto() {
+    public Produto(long codigoBarra, String nome, String descricao, String marca, float valor, String modelo, int idCategoria) {
+        this.codigoBarra = codigoBarra;
+        this.nome = nome;
+        this.descricao = descricao;
+        this.marca = marca;
+        this.valor = valor;
+        this.modelo = modelo;
+        IdCategoria = idCategoria;
+    }
+
+    public Produto() {
 	}
 
 	private int idProduto;
@@ -35,10 +46,11 @@ public class Produto {
 	private String nome;
 	private String descricao;
 	private String marca;
-	private String valor;
+	private float valor;
 	private String modelo;
 	private int IdUsuario;
 	private int IdCategoria;
+	private String pathFoto;
 	
 	public int getIdProduto() {
 		return idProduto;
@@ -70,10 +82,10 @@ public class Produto {
 	public void setMarca(String marca) {
 		this.marca = marca;
 	}
-	public String getValor() {
+	public float getValor() {
 		return valor;
 	}
-	public void setValor(String valor) {
+	public void setValor(float valor) {
 		this.valor = valor;
 	}
 	public String getModelo() {
@@ -94,6 +106,12 @@ public class Produto {
 	public void setIdCategoria(int idCategoria) {
 		IdCategoria = idCategoria;
 	}
-	
-		
+
+    public String getPathFoto() {
+        return pathFoto;
+    }
+
+    public void setPathFoto(String pathFoto) {
+        this.pathFoto = pathFoto;
+    }
 }

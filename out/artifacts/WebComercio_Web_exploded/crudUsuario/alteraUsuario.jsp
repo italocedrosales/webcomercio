@@ -78,7 +78,7 @@
             UsuarioDAO dao = new UsuarioDAO();
             Usuario usuario = dao.getUsuario(id);
         %>
-        <form action="../altera_usuario" method="post">
+        <form action="../altera_usuario" method="post" enctype="multipart/form-data">
             <input type="hidden" name="idUsuario" value="<%=usuario.getIdUsuario()%>">
             <div class="form-group">
                 <label for="cpfcnpj">CPF/CNPJ:</label>
@@ -145,9 +145,8 @@
             <div class="form-group">
                 <label for="tipoUsuario">Tipo de Usuario:</label>
                 <select class="form-control" id="tipoUsuario" name="tipoUsuario">
-                    <option value=""><%=usuario.getTipoUsuario()%></option>
-                    <option value="1">1°- Usuário</option>
-                    <option value="2">2°- Logista</option>
+                    <option value="1" <%=usuario.getTipoUsuario() == 1 ? "selected" : ""%>>Usuário</option>
+                    <option value="2" <%=usuario.getTipoUsuario() == 2 ? "selected" : ""%>>Logista</option>
                 </select>
             </div>
             <div class="form-group">

@@ -23,6 +23,6 @@ public class AlteraCategoria extends HttpServlet {
         CategoriaDAO catDao = new CategoriaDAO();
         catDao.update(categoria);
 
-        response.sendRedirect("crudCategoria/listaCategoria.jsp");
+        response.sendRedirect("publica/perfil.jsp");
     }
 }

@@ -1,4 +1,8 @@
 <%@ page import="br.edu.ifs.model.Usuario" %>
+<%@ page import="br.edu.ifs.dao.CategoriaDAO" %>
+<%@ page import="br.edu.ifs.model.Categoria" %>
+<%@ page import="java.util.List" %>
+<%@ page import="br.edu.ifs.model.Produto" %>
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
@@ -25,7 +29,8 @@
             </div>
             <div class="col-md-2"></div>
             <div class="col-md-3"><i class="fa fa-user" aria-hidden="true"></i> <%=usuario.getNome()%>
-                <img class="img-fluid" style="border-radius: 100%" src="<%="../"+usuario.getPathFoto()%>" alt="foto usuario" width="50px">
+                <img class="img-fluid rounded" src="<%="../"+usuario.getPathFoto()%>"
+                     alt="foto usuario" width="50px">
                 <a class="links" href="../autentica_usuario">Sair</a>
             </div>
             <div class="col-md-2"><a class="links" href=""><i class="fa fa-cart-plus" aria-hidden="true"></i> $0,00</a>
@@ -51,8 +56,25 @@
                 <li class="nav-item active"><a class="nav-link" href="index.jsp">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="">Sobre</a></li>
                 <li class="nav-item"><a class="nav-link" href="">Serviços</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Produtos</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Contato</a></li>
+                <li class="nav-item"><a class="nav-link" href="crudProduto/listaProdutos.jsp">Produtos</a></li>
+                <%--Dropdown--%>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="categoria" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categoria</a>
+
+                    <div class="dropdown-menu" aria-labelledby="categoria">
+                        <%
+                            Produto produtoCat = new Produto();
+                            CategoriaDAO catDao = new CategoriaDAO();
+                            List<Categoria> categorias = catDao.getListaCategoria();
+                            for (Categoria categoria : categorias) {
+                        %>
+                        <a class="dropdown-item"
+                           href="crudProduto/listaProdutos.jsp?idCategoria=<%=produtoCat.getIdCategoria()%>"><%=categoria.getNome()%>
+                        </a>
+                        <%}%>
+                    </div>
+                </li>
 
                 <%--seção--%>
                 <% if (usuario != null) {%>
@@ -65,6 +87,9 @@
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="crudCategoria/cadastraCategoria.jsp">Cadastrar Categoria</a>
                         <a class="dropdown-item" href="crudCategoria/listaCategoria.jsp">Listar Categoria</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="crudProduto/cadastraProduto.jsp">Cadastra Produtos</a>
+                        <a class="dropdown-item" href="crudProduto/listaProdutos.jsp">Lista Produtos</a>
                     </div>
                 </li>
                 <%}%>
@@ -97,8 +122,8 @@
                         data-wow-delay="1s" data-wow-offset="">Web Comércio</h1>
                     <h3 class="text-light wow tada" data-wow-duration="3s" data-wow-daley="2s"
                         data-wow-offset="10" data-wow-iteration="1">Venda online com uma loja virtual própria</h3>
-                    <a class="btn btn-outline-info btn-lg" href="sobre.jsp">Leia Mais</a>
-                    <a class="btn btn-info btn-lg" href="publica/login.jsp">Minha Loja</a>
+                    <a class="btn btn-outline-info btn-lg" href="publica/sobre.jsp">Leia Mais</a>
+                    <a class="btn btn-info btn-lg" href="publica/perfil.jsp">Minha Loja</a>
                 </div>
             </div>
             <%--item--%>
@@ -123,20 +148,26 @@
 
 <%--Conteudo--%>
 <div class="container-fluid text-center" style="background-color: #ccf1ff">
+
     <div class="container">
+
         <div class="row p-5 align-middle mx-auto">
+
             <div class="col-xl-6 col-md-12 p-md-5 p-sm-5">
                 <img class="img-fluid wow fadeInLeft" data-wow-delay="0s"
                      src="img/Como-montar-uma-loja-virtual-Criar-loja-online-502x300.png" alt="">
             </div>
+
             <div class="col-xl-6 col-md-12 p-md-5 p-sm-5">
                 <h2 class="display-4 text-primary wow fadeInRight" data-wow-delay="1s">Sua loja online 100%
                     profissional</h2>
             </div>
         </div>
     </div>
+
     <div class="container">
         <div class="row p-3 align-middle mx-auto">
+
             <div class="col-xl-4 col-md-12">
                 <div>
                     <h4 class="text-primary">Seus produtos organizados e com preço visível</h4>
@@ -147,6 +178,7 @@
                         carrinho de compras.</p>
                 </div>
             </div>
+
             <div class="col-xl-4 col-md-12">
                 <div>
                     <h4 class="text-primary">Em qualquer tipo de tela</h4>
@@ -157,6 +189,7 @@
                         computadores de mesa.</p>
                 </div>
             </div>
+
             <div class="col-xl-4 col-md-12">
                 <div>
                     <h4 class="text-primary">Com a cara da sua marca</h4>
@@ -175,7 +208,7 @@
         <div class="row">
             <div class="col-xl-6 align-middle">
                 <div class="container align-middle">
-                    <h2 class="text-center">Dê a melhor experiência de compra para seus clientes</h2>
+                    <h2 class="text-center display-4">Dê a melhor experiência de compra para seus clientes</h2>
                 </div>
             </div>
             <div class="col-xl-6">

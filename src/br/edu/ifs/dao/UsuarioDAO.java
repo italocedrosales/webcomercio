@@ -105,7 +105,7 @@ public class UsuarioDAO {
     }
 
     public void update(Usuario usuario) {
-        String sql = "UPDATE usuario SET cpfcnpj=?, nome=?, rua=?, numero=?, cidade=?, estado=?, telefone=?, email=?, tipousuario=?, senha=MD5(?), path_foto=? WHERE idUsuario=?";
+        String sql = "UPDATE usuario SET cpfcnpj=?, nome=?, rua=?, numero=?, cidade=?, estado=?, telefone=?, email=?, tipousuario=? WHERE idUsuario=?";
 
         try {
             PreparedStatement stmt = connection.prepareStatement(sql);
@@ -119,10 +119,9 @@ public class UsuarioDAO {
             stmt.setString(7, usuario.getTelefone());
             stmt.setString(8, usuario.getEmail());
             stmt.setInt(9, usuario.getTipoUsuario());
-            stmt.setString(10, usuario.getSenha());
-            stmt.setString(11, usuario.getPathFoto());
-            stmt.setInt(12, usuario.getIdUsuario());
+            stmt.setInt(10, usuario.getIdUsuario());
 
+            System.out.println(stmt.toString());
             stmt.executeUpdate();
 
         } catch (SQLException e) {

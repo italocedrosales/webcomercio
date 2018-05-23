@@ -31,12 +31,13 @@ public class FilterAutenticacao implements Filter {
 
         // so navega na tela de “Login” e o servlet “autenticaUsuario” e página
         if (usuarioAutenticado != null
-                || url.lastIndexOf("publica/login.jsp") != -1
+                || url.lastIndexOf("publica/") != -1
                 || url.lastIndexOf("autentica_usuario") != -1
                 || url.lastIndexOf("index.jsp") != -1
                 || url.lastIndexOf("node_modules") != -1
                 || url.lastIndexOf("crudUsuario/listaUsuario") != -1
                 || url.lastIndexOf("crudUsuario/") != -1
+                || url.lastIndexOf("crudProduto/") != -1
                 || url.lastIndexOf("crudUsuario/listaUsuario.jsp") != -1
                 || url.lastIndexOf("img") != -1) {
 

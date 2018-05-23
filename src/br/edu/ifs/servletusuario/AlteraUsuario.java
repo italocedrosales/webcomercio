@@ -24,8 +24,6 @@ public class AlteraUsuario extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 
-        response.getWriter().append("Served at: ").append(request.getContextPath());
-
         int idUsuario = Integer.parseInt(request.getParameter("idUsuario"));
         String cpfcnpj = request.getParameter("cpfcnpj");
         String nome = request.getParameter("nome");
@@ -36,10 +34,9 @@ public class AlteraUsuario extends HttpServlet {
         String telefone = request.getParameter("telefone");
         String email = request.getParameter("email");
         int tipoUsuario = Integer.parseInt(request.getParameter("tipoUsuario"));
-        String pathFoto = request.getParameter("file");
 
         //cria usuario
-        Usuario usuario = new Usuario(idUsuario, cpfcnpj, nome, rua, numero, cidade, estado, telefone, email, tipoUsuario, pathFoto);
+        Usuario usuario = new Usuario(idUsuario, cpfcnpj, nome, rua, numero, cidade, estado, telefone, email, tipoUsuario, "");
 
         //cadastra no banco
         UsuarioDAO dao = new UsuarioDAO();
@@ -65,9 +62,7 @@ public class AlteraUsuario extends HttpServlet {
                 part.write(savePath + File.separator + fileName);
             }
         }
-        dao.gravaFoto(idUsuario, SAVE_DIR + File.separator + fileName);
-
-        System.out.println("Gravafoto()");
+        dao.gravaFoto(idUsuario, SAVE_DIR + "/" + fileName);
 
         response.sendRedirect("crudUsuario/listaUsuario.jsp");
     }

@@ -82,7 +82,7 @@
                 <tr>
                     <th>ID</th>
                     <th>Foto</th>
-                    <th>CPF/CNPJ</th>
+                    <th></th>
                     <th>Nome</th>
                     <th>Rua</th>
                     <th>Número</th>

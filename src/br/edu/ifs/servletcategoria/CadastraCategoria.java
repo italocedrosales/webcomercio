@@ -24,6 +24,6 @@ public class CadastraCategoria extends HttpServlet {
         CategoriaDAO catDao = new CategoriaDAO();
         catDao.insert(categoria);
 
-        response.sendRedirect("crudCategoria/listaCategoria.jsp");
+        response.sendRedirect("publica/perfil.jsp");
     }
 }

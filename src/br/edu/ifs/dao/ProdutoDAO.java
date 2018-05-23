@@ -27,29 +27,27 @@ public class ProdutoDAO {
     }
 
     public int insert(Produto produto) {
-        String sql = "INSERT INTO produto (idproduto, codigobarra, nome, descricao, marca, valor, modelo, idusuario, idcategoria) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
+        String sql = "INSERT INTO produto (codigobarra, nome, descricao, marca, valor, modelo, idcategoria) VALUES (?, ?, ?, ?, ?, ?, ?)";
         int id = 0;
 
         try {
             PreparedStatement stmt = connection.prepareStatement(sql);
 
-            stmt.setInt(1, produto.getIdProduto());
-            stmt.setLong(2, produto.getCodigoBarra());
-            stmt.setString(3, produto.getNome());
-            stmt.setString(4, produto.getDescricao());
-            stmt.setString(5, produto.getMarca());
-            stmt.setString(6, produto.getValor());
-            stmt.setString(7, produto.getModelo());
-            stmt.setInt(8, produto.getIdUsuario());
-            stmt.setInt(9, produto.getIdCategoria());
+            stmt.setLong(1, produto.getCodigoBarra());
+            stmt.setString(2, produto.getNome());
+            stmt.setString(3, produto.getDescricao());
+            stmt.setString(4, produto.getMarca());
+            stmt.setFloat(5, produto.getValor());
+            stmt.setString(6, produto.getModelo());
+            stmt.setInt(7, produto.getIdCategoria());
 
             stmt.execute();
 
-            sql = "SELECT CURRVAL ('usuario_id_seq') AS id";
+            sql = "SELECT CURRVAL ('produto_idproduto_seq') AS id";
             stmt = connection.prepareStatement(sql);
             ResultSet rs = stmt.executeQuery();
             if (rs.next()) {
-                id = rs.getInt("idProduto");
+                id = rs.getInt("id");
             }
             return id;
 
@@ -58,8 +56,27 @@ public class ProdutoDAO {
         }
     }
 
+    public int gravaFoto(int idProduto, String pathFoto) {
+        String sql = "UPDATE produto SET path_foto=? WHERE idProduto=?";
+
+        try {
+            // prepared statement para inserção
+            PreparedStatement stmt = connection.prepareStatement(sql);
+
+            // seta os valores
+            stmt.setString(1, pathFoto);
+            stmt.setInt(2, idProduto);
+
+            // executa
+            return stmt.executeUpdate();
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     public void delete(int idProduto) {
-        String sql = "delete from produto where id=?";
+        String sql = "delete from produto where idproduto=?";
 
         try {
             PreparedStatement stmt = connection.prepareStatement(sql);
@@ -83,7 +100,7 @@ public class ProdutoDAO {
             stmt.setString(2, produto.getNome());
             stmt.setString(3, produto.getDescricao());
             stmt.setString(4, produto.getMarca());
-            stmt.setString(5, produto.getValor());
+            stmt.setFloat(5, produto.getValor());
             stmt.setString(6, produto.getModelo());
             stmt.setInt(7, produto.getIdUsuario());
             stmt.setInt(8, produto.getIdCategoria());
@@ -106,7 +123,7 @@ public class ProdutoDAO {
             ResultSet rs = stmt.executeQuery();
 
             if (rs.next()) {
-                Produto produto = new Produto(rs.getInt("idproduto"), rs.getLong("codigobarra"), rs.getString("nome"), rs.getString("descricao"), rs.getString("marca"), rs.getString("valor"), rs.getString("modelo"), rs.getInt("idusuario"), rs.getInt("idproduto"));
+                Produto produto = new Produto(rs.getInt("idproduto"), rs.getLong("codigobarra"), rs.getString("nome"), rs.getString("descricao"), rs.getString("marca"), rs.getFloat("valor"), rs.getString("modelo"), rs.getInt("idusuario"), rs.getInt("idproduto"), rs.getString("path_foto"));
 
                 return produto;
 
@@ -131,7 +148,7 @@ public class ProdutoDAO {
             ResultSet rs = stmt.executeQuery();
 
             while (rs.next()) {
-                Produto produto = new Produto(rs.getInt("idproduto"), rs.getLong("codigobarra"), rs.getString("nome"), rs.getString("descricao"), rs.getString("marca"), rs.getString("valor"), rs.getString("modelo"), rs.getInt("idusuario"), rs.getInt("idproduto"));
+                Produto produto = new Produto(rs.getInt("idproduto"), rs.getLong("codigobarra"), rs.getString("nome"), rs.getString("descricao"), rs.getString("marca"), rs.getFloat("valor"), rs.getString("modelo"), rs.getInt("idusuario"), rs.getInt("idproduto"), rs.getString("path_foto"));
 
                 listaProduto.add(produto);
             }
@@ -144,4 +161,6 @@ public class ProdutoDAO {
         }
         return null;
     }
+
+
 }
