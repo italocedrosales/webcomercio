@@ -74,7 +74,7 @@ public class CadastraUsuario extends HttpServlet {
         for (Part part : request.getParts()) {
             nomeArquivo = extractFileName(part);
             if (!nomeArquivo.equals("")) {
-                fileName = "usuario_" + id + nomeArquivo.substring(nomeArquivo.lastIndexOf('.'));
+                fileName = "usuario_" + id + "_" + Math.floor(Math.random() * 1000) + nomeArquivo.substring(nomeArquivo.lastIndexOf('.'));
                 part.write(savePath + File.separator + fileName);
             }
         }

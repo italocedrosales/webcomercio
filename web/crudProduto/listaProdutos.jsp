@@ -116,43 +116,31 @@
     </ol>
 </nav>
 <div class="container-fluid">
-    <div class="row pt-3">
-        <div class="col-lg-2">
-            <ul class="list-group-flush">
-                <li class="list-group-item active h5">Categorias</li>
-                <%
-                    CategoriaDAO daoCat = new CategoriaDAO();
-                    List<Categoria> Categorias = daoCat.getListaCategoria();
-                    for (Categoria categoria : categorias) {
-                %>
-                <a href="" class="list-group-item list-group-item-action"><%=categoria.getNome()%>
-                </a>
-                <%}%>
-            </ul>
-        </div>
-        <div class="col-lg-9">
-            <div class="row">
-                <h1 class="text-info text-center h1">Produtos</h1>
-                <%
-                    ProdutoDAO dao = new ProdutoDAO();
-                    List<Produto> produtos = dao.getListaProduto();
-                    for (Produto produto : produtos) {
-                %>
-                <div class="col-md-3 m-1">
-                    <div class="imagem">
-                        <a href="produtoDetalhes.jsp?idProduto=<%=produto.getIdProduto()%>">
-                            <img class="w-100 rounded" src="<%="../" + produto.getPathFoto()%>">
-                            <div class="overlay">
-                                <div class="detalhes">Detalhes</div>
-                            </div>
-                        </a>
-                    </div>
-                    <h5 class="text-center"><%=produto.getNome()%></h5>
-                    <h5 class="text-center">R$ <%=produto.getValor()%></h5>
-                    <a href="#" class="btn comprar">Comprar</a>
+    <h1 class="text-info text-center h1">Produtos</h1>
+    <div class="container">
+        <div class="row">
+            <%
+                ProdutoDAO dao = new ProdutoDAO();
+                List<Produto> produtos = dao.getListaProduto();
+                for (Produto produto : produtos) {
+            %>
+            <div class="col-md-3 mt-1 produto-grid">
+                <div class="imagem">
+                    <a href="produtoDetalhes.jsp?idProduto=<%=produto.getIdProduto()%>">
+                        <img style="width: 100px; height: 200px" class="w-100 rounded img-fluid"
+                             src="<%="../" + produto.getPathFoto()%>">
+                        <div class="overlay">
+                            <div class="detalhes">Detalhes</div>
+                        </div>
+                    </a>
                 </div>
-                <%}%>
+                <h5 class="text-center text-info mt-3"><%=produto.getNome()%>
+                </h5>
+                <h5 class="text-center">R$ <%=produto.getValor()%>
+                </h5>
+                <a href="#" class="btn comprar">Comprar</a>
             </div>
+            <%}%>
         </div>
     </div>
 </div>
@@ -185,16 +173,16 @@
                 <h5 class="">Redes Sociais</h5>
                 <ul class="">
                     <li>
-                        <a href="#!">FaceBook</a>
+                        <a href="#">FaceBook</a>
                     </li>
                     <li>
-                        <a href="#!">Twitter</a>
+                        <a href="#">Twitter</a>
                     </li>
                     <li>
-                        <a href="#!">Google++</a>
+                        <a href="#">Google++</a>
                     </li>
                     <li>
-                        <a href="#!">Instagran</a>
+                        <a href="#">Instagran</a>
                     </li>
                 </ul>
             </div>

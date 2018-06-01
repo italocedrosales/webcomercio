@@ -79,27 +79,34 @@
             Usuario usuario = dao.getUsuario(id);
         %>
         <form action="../altera_usuario" method="post" enctype="multipart/form-data">
+
             <input type="hidden" name="idUsuario" value="<%=usuario.getIdUsuario()%>">
+
             <div class="form-group">
                 <label for="cpfcnpj">CPF/CNPJ:</label>
                 <input class="form-control" type="text" id="cpfcnpj" name="cpfcnpj" value="<%=usuario.getCpfCnpj()%>">
             </div>
+
             <div class="form-group">
                 <label for="nome">Nome:</label>
                 <input class="form-control" type="text" id="nome" name="nome" value="<%=usuario.getNome()%>">
             </div>
+
             <div class="form-group">
                 <label for="rua">Rua:</label>
                 <input class="form-control" type="text" id="rua" name="rua" value="<%=usuario.getRua()%>">
             </div>
+
             <div class="form-group">
                 <label for="numero">Número:</label>
                 <input class="form-control" type="text" id="numero" name="numero" value="<%=usuario.getNumero()%>">
             </div>
+
             <div class="form-group">
                 <label for="cidade">Cidade:</label>
                 <input class="form-control" type="text" id="cidade" name="cidade" value="<%=usuario.getCidade()%>">
             </div>
+
             <div class="form-group">
                 <label for="estado">Estado:</label>
                 <select class="form-control" id="estado" name="estado">
@@ -133,15 +140,18 @@
                     <option value="TO">Tocantins</option>
                 </select>
             </div>
+
             <div class="form-group">
                 <label for="telefone">Telefone:</label>
                 <input class="form-control" type="text" id="telefone" name="telefone"
                        value="<%=usuario.getTelefone()%>">
             </div>
+
             <div class="form-group">
                 <label for="email">E-mail:</label>
                 <input class="form-control" type="text" id="email" name="email" value="<%=usuario.getEmail()%>">
             </div>
+
             <div class="form-group">
                 <label for="tipoUsuario">Tipo de Usuario:</label>
                 <select class="form-control" id="tipoUsuario" name="tipoUsuario">
@@ -149,6 +159,7 @@
                     <option value="2" <%=usuario.getTipoUsuario() == 2 ? "selected" : ""%>>Logista</option>
                 </select>
             </div>
+
             <div class="form-group">
                 <label for="foto">Foto:</label>
                 <input type="file" class="form-control-file" id="foto" name="file">

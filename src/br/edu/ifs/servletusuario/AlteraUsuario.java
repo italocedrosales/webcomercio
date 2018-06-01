@@ -22,7 +22,8 @@ public class AlteraUsuario extends HttpServlet {
     private static final String SAVE_DIR = "FotosUsuarios";
 
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws IOException, ServletException {
 
         int idUsuario = Integer.parseInt(request.getParameter("idUsuario"));
         String cpfcnpj = request.getParameter("cpfcnpj");
@@ -60,10 +61,10 @@ public class AlteraUsuario extends HttpServlet {
             if (!nomeArquivo.equals("")) {
                 fileName = "usuario_" + idUsuario + "_" + Math.floor(Math.random() * 1000) + nomeArquivo.substring(nomeArquivo.lastIndexOf('.'));
                 part.write(savePath + File.separator + fileName);
+
+                dao.gravaFoto(idUsuario, SAVE_DIR + "/" + fileName);
             }
         }
-        dao.gravaFoto(idUsuario, SAVE_DIR + "/" + fileName);
-
         response.sendRedirect("crudUsuario/listaUsuario.jsp");
     }
 

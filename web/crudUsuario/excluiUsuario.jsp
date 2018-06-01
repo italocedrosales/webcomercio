@@ -141,7 +141,7 @@
             </div>
             <%--Botões--%>
             <input class="btn btn-primary" type="submit" value="Excluir">
-            <input class="btn btn-primary" type="button" value="Cancelar"
+            <input class="btn btn-danger" type="button" value="Cancelar"
                    onclick="window.location.assign('listaUsuario.jsp')">
         </form>
     </div>

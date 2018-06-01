@@ -71,7 +71,7 @@
         </div>
         <input class="btn btn-outline-info btn-block" type="submit" value="Login">
         <a href="../crudUsuario/cadastraUsuario.jsp" class="btn btn-info btn-block" type="text">Cadastrar-se</a> <br>
-        <a href="#">Esqueceu sua senha?</a>
+        <a class="text-light" href="esqueciminhasenha.jsp">Esqueceu sua senha?</a>
     </form>
 </div>
 

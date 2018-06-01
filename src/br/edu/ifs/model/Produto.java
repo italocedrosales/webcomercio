@@ -38,7 +38,19 @@ public class Produto {
         IdCategoria = idCategoria;
     }
 
-    public Produto() {
+	public Produto(int idProduto, long codigoBarra, String nome, String descricao, String marca, float valor, String modelo, int idCategoria, String pathFoto) {
+		this.idProduto = idProduto;
+		this.codigoBarra = codigoBarra;
+		this.nome = nome;
+		this.descricao = descricao;
+		this.marca = marca;
+		this.valor = valor;
+		this.modelo = modelo;
+		IdCategoria = idCategoria;
+		this.pathFoto = pathFoto;
+	}
+
+	public Produto() {
 	}
 
 	private int idProduto;

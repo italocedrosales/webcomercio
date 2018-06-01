@@ -22,22 +22,7 @@
             request.getSession().getAttribute("usuarioAutenticado");
     if (usuario != null) {%>
 
-<div class="container-fluid bg-info d-none d-md-block d-block">
-    <div class="container">
-        <div class="row text-light pt-2 pb-2" style="color: white">
-            <div class="col-md-5"><i class="fa fa-envelope" aria-hidden="true"></i> <%=usuario.getEmail()%>
-            </div>
-            <div class="col-md-2"></div>
-            <div class="col-md-3"><i class="fa fa-user" aria-hidden="true"></i> <%=usuario.getNome()%>
-                <img class="img-fluid rounded mr-2 ml-2" src="<%="../"+usuario.getPathFoto()%>"
-                     alt="foto usuario" width="50px">
-                <a style="color: white" class="links" href="../autentica_usuario">Sair</a>
-            </div>
-            <div class="col-md-2 pt-1"><a style="color: white" class="links" href=""><i class="fa fa-cart-plus" aria-hidden="true"></i> $0,00</a>
-            </div>
-        </div>
-    </div>
-</div>
+
 <% }%>
 
 <%--Navegação--%>
@@ -105,7 +90,33 @@
 <%--Conteudo--%>
 <div class="container-fluid">
     <h1 class="text-info text-center h1 m-4">Área do Logista</h1>
+    <hr>
     <div class="row container">
+        <div class="col-lg-5">
+            <div class="row">
+                <div class="col-lg-4">
+                    <% if (usuario != null) {%>
+
+                    <img class="img-fluid rounded m-2" src="<%="../"+ usuario.getPathFoto()%>" alt="foto usuario">
+                </div>
+                <div class="col-lg-8 text-left">
+                    <h4 class="">Olá <%=usuario.getNome()%></h4>
+                    <h3 class="">Seja bem vindo!</h3>
+                </div>
+                <%}%>
+            </div>
+        </div>
+        <div class="col-lg-6 text-center">
+            <h4>O que voçê deseja fazer?</h4>
+            <a class="btn btn-primary" href="../crudProduto/cadastraProduto.jsp"><i class="fas fa-plus"></i> Novo Produto</a>
+            <a class="btn btn-warning" href="../crudCategoria/cadastraCategoria.jsp"><i class="fas fa-plus"></i> Nova Categoria</a>
+            <a  href="../crudUsuario/alteraUsuario.jsp?idUsuario=<%= usuario.getIdUsuario()%>"
+                class="btn btn-success"><i class="fas fa-cogs"></i> Editar Perfil</a>
+            <a href="../autentica_usuario" class="btn btn-danger">Sair</a>
+        </div>
+    </div>
+    <hr>
+    <div class="row container mx-lg-auto">
         <div class="container col-lg-3">
             <div class="table-responsive-md">
                 <table class="table table-hover text-center">
@@ -128,17 +139,14 @@
                         <td><%=categoria.getNome()%>
                         </td>
 
-                        <td><a href="../crudCategoria/alteraCategoria.jsp?idCategoria=<%= categoria.getIdCategoria()%>"><i
-                                class="fas fa-edit"></i></a></td>
-                        <td><a href="../crudCategoria/excluiCategoria.jsp?idCategoria=<%= categoria.getIdCategoria()%>"><i
-                                class="fas fa-times"></i></a></td>
+                        <td><a href="../crudCategoria/alteraCategoria.jsp?idCategoria=<%= categoria.getIdCategoria()%>"><i class="fas fa-edit"></i></a></td>
+                        <td><a href="../crudCategoria/excluiCategoria.jsp?idCategoria=<%= categoria.getIdCategoria()%>"><i class="fas fa-times"></i></a></td>
                     </tr>
                     <%
                         }
                     %>
                     </tbody>
                 </table>
-                <a class="btn btn-primary" href="../crudCategoria/cadastraCategoria.jsp">Nova Categoria</a>
             </div>
         </div>
         <div class="container col-lg-9">
@@ -168,7 +176,8 @@
                         <tr>
                             <td><%=produto.getIdProduto()%>
                             </td>
-                            <td><img class="img-fluid rounded" src="<%="../"+produto.getPathFoto()%>" alt="fotoProduto" width="50px" height="50">
+                            <td><img class="img-fluid rounded" src="<%="../"+produto.getPathFoto()%>" alt="fotoProduto"
+                                     width="50px" height="50">
                             </td>
                             <td><%=produto.getCodigoBarra()%>
                             </td>
@@ -194,7 +203,6 @@
                         %>
                         </tbody>
                     </table>
-                    <a class="btn btn-primary" href="../crudProduto/cadastraProduto.jsp">Novo Produto</a>
                 </form>
             </div>
         </div>

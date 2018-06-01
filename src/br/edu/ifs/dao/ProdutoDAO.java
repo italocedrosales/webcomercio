@@ -91,7 +91,7 @@ public class ProdutoDAO {
     }
 
     public void update(Produto produto) {
-        String sql = "UPDATE produto SET codigobarra=?, nome=?, descricao=?, marca=?, valor=?, modelo=?, idusuario=?, idcategoria=? WHERE idproduto=?";
+        String sql = "UPDATE produto SET codigobarra=?, nome=?, descricao=?, marca=?, valor=?, modelo=?, idcategoria=? WHERE idproduto=?";
 
         try {
             PreparedStatement stmt = connection.prepareStatement(sql);
@@ -102,9 +102,8 @@ public class ProdutoDAO {
             stmt.setString(4, produto.getMarca());
             stmt.setFloat(5, produto.getValor());
             stmt.setString(6, produto.getModelo());
-            stmt.setInt(7, produto.getIdUsuario());
-            stmt.setInt(8, produto.getIdCategoria());
-            stmt.setInt(9, produto.getIdProduto());
+            stmt.setInt(7, produto.getIdCategoria());
+            stmt.setInt(8, produto.getIdProduto());
 
             stmt.executeUpdate();
 
@@ -161,6 +160,5 @@ public class ProdutoDAO {
         }
         return null;
     }
-
 
 }

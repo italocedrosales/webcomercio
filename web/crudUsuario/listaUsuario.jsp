@@ -70,11 +70,29 @@
     </div>
 </nav>
 
+<%
+    int linhas = 5;
+    int paginaAtual = 1;
+    int paginaInicial = 1;
+
+    if (request.getParameter("linhas") != null) {
+        linhas = Integer.parseInt(request.getParameter("linhas"));
+    }
+
+    if (request.getParameter("paginaAtual") != null) {
+        paginaAtual = Integer.parseInt(request.getParameter("paginaAtual"));
+    }
+
+    if (request.getParameter("paginaInicial") != null) {
+        paginaInicial = Integer.parseInt(request.getParameter("paginaInicial"));
+    }
+%>
 
 <%--Conteudo--%>
 <div class="container-fluid">
-    <h1 class="text-info text-center">Lista de Usuários</h1>
-
+    <hr>
+    <h1 class="text-info text-center m-4">Lista de Usuários</h1>
+    <hr>
     <div class="table-responsive-md">
         <form action="cadastraUsuario.jsp" method="get">
             <table class="table table-hover text-center">
@@ -90,15 +108,20 @@
                     <th>Estado</th>
                     <th>Telefone</th>
                     <th>E-mail</th>
-                    <th>Tipo Usuário</th>
+                    <th>Tipo</th>
                     <th colspan="2">Opções</th>
                 </tr>
                 </thead>
                 <tbody>
                 <%
-                    UsuarioDAO dao = new UsuarioDAO();
-                    List<Usuario> usuarios = dao.getListaUsuarios();
-                    for (Usuario usuario : usuarios ) {
+                    UsuarioDAO usuarioDao = new UsuarioDAO();
+                    int totalUsuarios = usuarioDao.totalUsuarios();
+                    int totalPaginas = totalUsuarios / linhas;
+                    if ((totalUsuarios % linhas) > 0) {
+                        totalPaginas++;
+                    }
+                    List<Usuario> usuarios = usuarioDao.getListaUsuarios(linhas, paginaAtual);
+                    for (Usuario usuario : usuarios) {
                 %>
                 <tr>
                     <td><%=usuario.getIdUsuario()%>
@@ -123,14 +146,41 @@
                     </td>
                     <td><%=usuario.getTipoUsuario()%>
                     </td>
-                    <td><a href="alteraUsuario.jsp?idUsuario=<%= usuario.getIdUsuario()%>"> Alterar </a></td>
-                    <td><a href="excluiUsuario.jsp?idUsuario=<%= usuario.getIdUsuario()%>"> Excluir </a></td>
+                    <td><a href="alteraUsuario.jsp?idUsuario=<%= usuario.getIdUsuario()%>"><i class="fas fa-edit"></i></a></td>
+                    <td><a href="excluiUsuario.jsp?idUsuario=<%= usuario.getIdUsuario()%>"><i class="fas fa-times"></i></a></td>
                 </tr>
                 <%
                     }
                 %>
                 </tbody>
             </table>
+
+            <nav aria-label="Page navigation example m-3">
+                <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <%
+                        for (int i = paginaInicial; i <= paginaInicial + 9; i++) {
+                            if (i <= totalPaginas) {
+                                if (i == paginaAtual) {
+                                    out.println("" + i);
+                                } else {
+                                    if (i > 5) {
+                                        out.println("<li class=\"page-item\"><a class=\"page-link\" href=\"../crudUsuario/listaUsuario.jsp?linhas="
+                                                + linhas + "&paginaAtual=" + i + "&paginaInicial="
+                                                + (i - 4) + "\">" + i + "</a></li>");
+                                    } else {
+                                        out.println("<li class=\"page-item\"><a class=\"page-link\" href=\"../crudUsuario/listaUsuario.jsp?linhas="
+                                                + linhas + "&paginaAtual=" + i + "&paginaInicial="
+                                                + 1 + "\">" + i + "</a></li>");
+                                    }
+                                }
+                            }
+                        }
+                    %>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </nav>
+
             <input class="btn btn-primary" type="submit" value="Novo Cadastro">
         </form>
     </div>

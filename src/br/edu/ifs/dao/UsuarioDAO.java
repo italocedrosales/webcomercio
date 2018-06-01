@@ -45,7 +45,6 @@ public class UsuarioDAO {
             stmt.setString(10, usuario.getSenha());
 
 
-
             stmt.execute();
 
             System.out.println("Recompilei!");
@@ -155,13 +154,15 @@ public class UsuarioDAO {
         return null;
     }
 
-    public List<Usuario> getListaUsuarios() {
-        String sql = "select * from usuario";
+    public List<Usuario> getListaUsuarios(int linhas, int paginas) {
+        String sql = "select * from usuario ORDER BY idUsuario LIMIT ? OFFSET ?";
 
         List<Usuario> listaUsuarios = new ArrayList<Usuario>();
 
         try {
             PreparedStatement stmt = connection.prepareStatement(sql);
+            stmt.setInt(1, linhas);
+            stmt.setInt(2, (linhas * paginas) - linhas);
 
             ResultSet rs = stmt.executeQuery();
 
@@ -179,24 +180,47 @@ public class UsuarioDAO {
         return null;
     }
 
+    public int totalUsuarios() {
+        String sql = "SELECT COUNT(1) as totalUsuarios FROM usuario";
+        int totaUsuarios = 0;
+
+        try {
+            PreparedStatement stmt = connection.prepareStatement(sql);
+            ResultSet rs = stmt.executeQuery();
+
+            if (rs.next()) {
+                totaUsuarios = rs.getInt("totalUsuarios");
+            }
+
+            return totaUsuarios;
+
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+    }
 
     public Usuario autenticaUsuario(Usuario usuLogin) {
 
         String sql = "SELECT * FROM usuario WHERE email = ? and senha = MD5(?)";
+
         try {
             // prepared statement para inserção
             PreparedStatement stmt = connection.prepareStatement(sql);
+
             // seta os valores
             stmt.setString(1, usuLogin.getEmail());
             stmt.setString(2, usuLogin.getSenha());
+
             ResultSet rs = stmt.executeQuery();
             if (rs.next()) {
                 Usuario usuario = new Usuario(rs.getInt("idUsuario"), rs.getString("cpfcnpj"), rs.getString("nome"), rs.getString("rua"), rs.getInt("numero"), rs.getString("cidade"), rs.getString("estado"), rs.getString("telefone"), rs.getString("email"), rs.getInt("tipoUsuario"), rs.getString("senha"), rs.getString("path_foto"));
 
-// Retorna Usuario Autenticado
+                // Retorna Usuario Autenticado
                 return usuario;
+
             } else {
-// Retorna Usuario Nulo
+                // Retorna Usuario Nulo
                 return null;
             }
         } catch (SQLException e) {
