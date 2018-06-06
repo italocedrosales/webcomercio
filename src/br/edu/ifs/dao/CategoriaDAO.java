@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import br.edu.ifs.model.Categoria;
+import br.edu.ifs.model.Produto;
 
 public class CategoriaDAO {
 
@@ -137,4 +138,29 @@ public class CategoriaDAO {
         }
         return null;
     }
+
+    public List<Produto> getListaProdutoCategoria() {
+        String sql = "select * from produto where idcategoria=?";
+
+        List<Produto> listaProduto = new ArrayList<Produto>();
+        try {
+            PreparedStatement stmt = connection.prepareStatement(sql);
+
+            ResultSet rs = stmt.executeQuery();
+
+            while (rs.next()) {
+                Produto produto = new Produto(rs.getInt("idproduto"), rs.getLong("codigobarra"), rs.getString("nome"), rs.getString("descricao"), rs.getString("marca"), rs.getFloat("valor"), rs.getString("modelo"), rs.getInt("idusuario"), rs.getInt("idproduto"), rs.getString("path_foto"));
+
+                listaProduto.add(produto);
+            }
+
+            return listaProduto;
+
+        } catch (SQLException e) {
+            //throw new RuntimeException(e);
+            this.setErro(e.getMessage());
+        }
+        return null;
+    }
+
 }

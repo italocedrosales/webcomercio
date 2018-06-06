@@ -31,9 +31,10 @@
             <div class="col-md-3"><i class="fa fa-user" aria-hidden="true"></i> <%=usuario.getNome()%>
                 <img class="img-fluid rounded" src="<%="../"+usuario.getPathFoto()%>"
                      alt="foto usuario" width="50px">
-                <a class="links" href="../autentica_usuario">Sair</a>
+                <a class="links text-light" href="../autentica_usuario">Sair</a>
             </div>
-            <div class="col-md-2"><a class="links" href=""><i class="fa fa-cart-plus" aria-hidden="true"></i> $0,00</a>
+            <div class="col-md-2">
+                <a class="links text-light" href=""><i class="fa fa-cart-plus" aria-hidden="true"></i> $0,00</a>
             </div>
         </div>
     </div>
@@ -133,7 +134,7 @@
             </div>
             <%--item--%>
             <div class="carousel-item">
-                <img class="d-block w-100" src="img/slide3.jpeg" alt="Third slide">
+                <img class="d-block w-100" src="img/slides/slide3.jpeg" alt="Third slide">
             </div>
         </div>
         <%--Controles--%>
@@ -204,13 +205,11 @@
     </div>
 </div>
 
-<div class="jumbotron jumbotron-fluid align-content-center">
+<div class="jumbotron jumbotron-fluid align-content-center mb-0">
     <div class="container">
-        <div class="row">
-            <div class="col-xl-6 align-middle">
-                <div class="container align-middle">
-                    <h2 class="text-center display-4">Dê a melhor experiência de compra para seus clientes</h2>
-                </div>
+        <div class="row pai" style="height: 400px; width: 100%">
+            <div class="col-xl-6 filho" style="margin-top: 125px">
+                <h2 class="text-center display-5">Dê a melhor experiência de compra para seus clientes</h2>
             </div>
             <div class="col-xl-6">
                 <img class="img-fluid" src="img/loja1.png" alt="">
@@ -219,191 +218,34 @@
     </div>
 </div>
 
-<%--Carrossel de Produtos--%>
-<div class="container mb-4">
-    <h2 class="text-center display-4">Produtos</h2>
-    <div id="produtos" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-
-            <div class="carousel-item active">
-                <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-3 mb-3">
-                        <div class="card">
-                            <img class="card-img-top" src="img/produto1/imac.jpeg" alt="Card image cap">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Imac</h5>
-                                <a href="#"><i class="fas fa-plus"></i></a>
-                                <a href="#" class="btn btn-primary" data-toggle="tooltip" data-placement="top"
-                                   title="Tooltip on top"><i class="fas fa-shopping-cart"></i></a>
-                                <a href="#"><i class="fas fa-minus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3 mb-3">
-                        <div class="card">
-                            <img class="card-img-top" src="img/produto1/iphone.jpeg" alt="Card image cap">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Imac</h5>
-                                <a href="#"><i class="fas fa-plus"></i></a>
-                                <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i></a>
-                                <a href="#"><i class="fas fa-minus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3 mb-3">
-                        <div class="card">
-                            <img class="card-img-top" src="img/produto1/macbook1.jpeg" alt="Card image cap">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Imac</h5>
-                                <a href="#"><i class="fas fa-plus"></i></a>
-                                <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i></a>
-                                <a href="#"><i class="fas fa-minus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3 mb-3">
-                        <div class="card">
-                            <img class="card-img-top" src="img/produto1/mackbook.jpeg" alt="Card image cap">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Imac</h5>
-                                <a href="#"><i class="fas fa-plus"></i></a>
-                                <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i></a>
-                                <a href="#"><i class="fas fa-minus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-3 mb-3">
-                        <div class="card">
-                            <img class="card-img-top" src="img/produto1/imac.jpeg" alt="Card image cap">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">IMac</h5>
-                                <a href="#"><i class="fas fa-plus"></i></a>
-                                <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i></a>
-                                <a href="#"><i class="fas fa-minus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3 mb-3">
-                        <div class="card">
-                            <img class="card-img-top" src="img/produto1/iphone.jpeg" alt="Card image cap">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Iphone</h5>
-                                <a href="#"><i class="fas fa-plus"></i></a>
-                                <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i></a>
-                                <a href="#"><i class="fas fa-minus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3 mb-3">
-                        <div class="card">
-                            <img class="card-img-top" src="img/produto1/macbook1.jpeg" alt="Card image cap">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Macbook</h5>
-                                <a href="#"><i class="fas fa-plus"></i></a>
-                                <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i></a>
-                                <a href="#"><i class="fas fa-minus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3 mb-3">
-                        <div class="card">
-                            <img class="card-img-top" src="img/produto1/mackbook.jpeg" alt="Card image cap">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Macbook</h5>
-                                <a href="#"><i class="fas fa-plus"></i></a>
-                                <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i></a>
-                                <a href="#"><i class="fas fa-minus"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="row">
-                <div class="col-sm-6 col-md-6 col-lg-3 mb-3">
-                    <div class="card">
-                        <img class="card-img-top" src="img/produto1/imac.jpeg" alt="Card image cap">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">IMac</h5>
-                            <a href="#"><i class="fas fa-plus"></i></a>
-                            <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i></a>
-                            <a href="#"><i class="fas fa-minus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 mb-3">
-                    <div class="card">
-                        <img class="card-img-top" src="img/produto1/iphone.jpeg" alt="Card image cap">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Iphone</h5>
-                            <a href="#"><i class="fas fa-plus"></i></a>
-                            <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i></a>
-                            <a href="#"><i class="fas fa-minus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 mb-3">
-                    <div class="card">
-                        <img class="card-img-top" src="img/produto1/macbook1.jpeg" alt="Card image cap">
-                        <div class="card-header">
-                            <h5 class="card-title">Macbook</h5>
-                            <h4 class="card-text">Preço</h4>
-                            <h4 class="card-text">R$ 3.000,00</h4>
-                        </div>
-                        <div class="card-body text-center">
-                            <a href="#"><i class="fas fa-plus"></i></a>
-                            <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i></a>
-                            <a href="#"><i class="fas fa-minus"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 mb-3">
-                    <div class="card">
-                        <img class="card-img-top" src="img/produto1/mackbook.jpeg" alt="Card image cap">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Macbook</h5>
-                            <a href="#"><i class="fas fa-plus"></i></a>
-                            <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i></a>
-                            <a href="#"><i class="fas fa-minus"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <%--<a class="carousel-control-prev" href="#produtos" role="button" data-slide="prev">--%>
-    <%--<span class="carousel-control-prev-icon" aria-hidden="true"></span>--%>
-    <%--</a>--%>
-    <%--<a class="carousel-control-next" href="#produtos" role="button" data-slide="next">--%>
-    <%--<span class="carousel-control-next-icon" aria-hidden="true"></span>--%>
-    <%--</a>--%>
+<div class="container-fluid m-0" style="background: linear-gradient(45deg, #1675ff, #3bbeff)">
+    <div class="row" style="height: 20px"></div>
 </div>
 
-
 <!--Footer-->
-<footer class="bg-dark text-light pt-4 mt-4">
+<footer class="bg-dark text-light pt-3">
 
     <!--Footer Links-->
     <div class="container-fluid text-center text-md-left">
         <div class="row">
 
             <!--First column-->
-            <div class="col-md-4">
-                <h5 class="">Localização</h5>
-                <div class="embed-responsive embed-responsive-4by3">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.284058532884!2d-38.01017815009233!3d-11.16659122915086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x711b2ef8389b869%3A0xf53700297625cf8f!2sIFS+-+Instituto+Federal+de+Sergipe%2C+Campus+Tobias+Barreto!5e0!3m2!1spt-BR!2sbr!4v1527382277870"
-                            width="200" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div class="col-lg-3">
+                <div class="row">
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4">
+                        <h5 class="text-center">Localização</h5>
+                        <iframe class="m-2"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.284058532884!2d-38.01017815009233!3d-11.16659122915086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x711b2ef8389b869%3A0xf53700297625cf8f!2sIFS+-+Instituto+Federal+de+Sergipe%2C+Campus+Tobias+Barreto!5e0!3m2!1spt-BR!2sbr!4v1527382277870"
+                                width="250" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-lg-4"></div>
                 </div>
             </div>
-            <!--/.First column-->
+            <div class="col-lg-3"></div>
 
-            <div class="col-md-4">
-                <h5>Contato</h5>
+            <div class="col-lg-3">
+                <h5 class="">Contato</h5>
                 <ul>
                     <li><a href=""></a>Telefone:</li>
                     <li><a href=""></a>Endereço:</li>
@@ -412,20 +254,20 @@
             </div>
 
             <!--Second column-->
-            <div class="col-md-4">
-                <h5 class="text-uppercase">Redes Sociais</h5>
+            <div class="col-lg-3">
+                <h5 class="">Redes Sociais</h5>
                 <ul class="">
                     <li>
-                        <a href="#!">FaceBook</a>
+                        <a href="#">FaceBook</a>
                     </li>
                     <li>
-                        <a href="#!">Twitter</a>
+                        <a href="#">Twitter</a>
                     </li>
                     <li>
-                        <a href="#!">Google++</a>
+                        <a href="#">Google++</a>
                     </li>
                     <li>
-                        <a href="#!">Instagran</a>
+                        <a href="#">Instagran</a>
                     </li>
                 </ul>
             </div>
@@ -435,11 +277,15 @@
     <!--/.Footer Links-->
 
     <!--Copyright-->
-    <div class="container-fluid text-center bg-dark">
-        <p class="text-light">© 2018 Copyright:<a class="text-light" href="index.jsp"> WebComércio.com </a></p>
+    <div class=" row container-fluid bg-dark mt-2">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+            <p class="text-light text-center">&copy; 2018 Copyright:<a class="text-light" href="index.jsp">
+                WebComércio.com </a></p>
+        </div>
+        <div class="col-lg-4"></div>
     </div>
     <!--/.Copyright-->
-
 </footer>
 <!--/.Footer-->
 
