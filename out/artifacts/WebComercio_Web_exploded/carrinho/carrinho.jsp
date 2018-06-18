@@ -73,12 +73,12 @@
                 </button>
             </td>
 
-            <%--<%--%>
+            <%
 
-            <%--totalPedido = totalPedido + (produto.getQuantidade() * produto.getValor());--%>
+                float totalPedido = (produto.getQuantidade() * produto.getValor());
 
-            <%--%>--%>
 
+            %>
         </tr>
 
         <%
@@ -87,21 +87,20 @@
         </tbody>
     </table>
 
-    <%--<div class="row">--%>
-    <%--<div class="col-sm-8">--%>
+    <div class="row">
+        <div class="col-sm-8">
 
-    <%--</div>--%>
+        </div>
 
-    <%--<div class="col-sm-4">--%>
-    <%--<h5 class="mt-4"> Total do pedido: <%=FormataMoeda.toString(totalPedido)%>--%>
-    <%--</h5>--%>
-    <%--<br><br><br>--%>
-    <%--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--%>
-    <%--<button type="submit" class="btn btn-outline-secondary">Finalizar Pedido</button>--%>
-    <%--</div>--%>
-    <%--</div>--%>
-    <%--</div>--%>
+        <div class="col-sm-4">
+            <%--<h5 class="mt-4"> Total do pedido:  <%=FormataMoeda.toString()%></h5>--%>
+            <br><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="submit" class="btn btn-outline-secondary">Finalizar Pedido</button>
 
-    <%@include file="../include/rodape.jsp" %>
+        </div>
+    </div>
+
+<%@include file="../include/rodape.jsp" %>
 </body>
 </html>

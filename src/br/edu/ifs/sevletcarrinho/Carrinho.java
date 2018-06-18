@@ -44,7 +44,7 @@ public class Carrinho extends HttpServlet {
 
         carrinho.add(produto);
 
-        response.sendRedirect("../crudProduto/listaProdutos.jsp");
+        response.sendRedirect("carrinho/carrinho.jsp");
     }
 
 }

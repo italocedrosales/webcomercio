@@ -7,99 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8583cda4-9b5c-4a45-8812-f8664cc9550e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/edu/ifs/servletremovedocarrinho/RemoveDoCarrinho.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/edu/ifs/sevletcarrinho/Carrinho.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/edu/ifs/util/FormataMoeda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/carrinho/carrinho.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/include/bootstrap.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/include/cabecalho.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/include/rodape.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/WebComercio_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/WebComercio_Web_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebComercio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WebComercio.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosProdutos/produto_10_586.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosProdutos/produto_6_63.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosProdutos/produto_7_101.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosProdutos/produto_7_216.0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosProdutos/produto_7_772.0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosProdutos/produto_8_789.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosProdutos/produto_9_177.0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosProdutos/produto_9_227.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosProdutos/produto_9_5.0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosProdutos/produto_9_948.0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosUsuarios/usuario_31_95.0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosUsuarios/usuario_32_211.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosUsuarios/usuario_32_561.0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosUsuarios/usuario_34_112.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosUsuarios/usuario_34_440.0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosUsuarios/usuario_34_550.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosUsuarios/usuario_34_626.0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosUsuarios/usuario_36_796.0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosUsuarios/usuario_37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosUsuarios/usuario_37_738.0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosUsuarios/usuario_38.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosUsuarios/usuario_39.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/WEB-INF/classes/br/edu/ifs/model/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/WEB-INF/classes/br/edu/ifs/model/Produto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/WEB-INF/classes/br/edu/ifs/servletusuario/AutenticaUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/WEB-INF/classes/br/edu/ifs/servletusuario/AutenticaUsuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudProduto/alteraProduto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudProduto/alteraProduto.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudProduto/cadastraProduto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudProduto/cadastraProduto.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudProduto/excluiProduto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudProduto/excluiProduto.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudProduto/listaProdutos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudProduto/listaProdutos.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudProduto/produtoDetalhes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudProduto/produtoDetalhes.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudUsuario/alteraUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudUsuario/alteraUsuario.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudUsuario/cadastraUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudUsuario/cadastraUsuario.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudUsuario/excluiUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudUsuario/excluiUsuario.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/img/cama e banho.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/img/cama-hd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/img/slide1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/img/slide2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/img/slide3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/img/slides/slide1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/img/slides/slide2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/img/slides/slide3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/img/slides/slide4.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/img/slides/slide7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/img/slides/slide8.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/img/slides/slide9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/node_modules/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/node_modules/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/publica/contato.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/publica/contato.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/publica/perfil.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/publica/perfil.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/publica/sobre.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/publica/sobre.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WebComercio/br/edu/ifs/model/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebComercio/br/edu/ifs/model/Produto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WebComercio/br/edu/ifs/servletusuario/AutenticaUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebComercio/br/edu/ifs/servletusuario/AutenticaUsuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifs/filter/FilterAutenticacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifs/filter/FilterAutenticacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifs/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifs/model/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifs/servletusuario/AutenticaUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifs/servletusuario/AutenticaUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/crudProduto/alteraProduto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/crudProduto/alteraProduto.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/crudProduto/cadastraProduto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/crudProduto/cadastraProduto.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/crudProduto/excluiProduto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/crudProduto/excluiProduto.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifs/sevletcarrinho/Carrinho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifs/sevletcarrinho/Carrinho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/carrinho/carrinho.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/carrinho/carrinho.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/crudProduto/listaProdutos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/crudProduto/listaProdutos.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/crudProduto/produtoDetalhes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/crudProduto/produtoDetalhes.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/crudUsuario/alteraUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/crudUsuario/alteraUsuario.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/crudUsuario/cadastraUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/crudUsuario/cadastraUsuario.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/crudUsuario/excluiUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/crudUsuario/excluiUsuario.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/img/cama e banho.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/img/cama-hd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/img/slide1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/img/slide2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/img/slide3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/img/slides/slide1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/img/slides/slide2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/img/slides/slide3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/img/slides/slide4.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/img/slides/slide7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/img/slides/slide8.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/img/slides/slide9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/node_modules/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/node_modules/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/publica/contato.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/publica/contato.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/publica/perfil.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/publica/perfil.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/publica/sobre.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/publica/sobre.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -114,17 +24,20 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+            <state relative-caret-position="-36">
+              <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="listaProdutos.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="listaProdutos.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/crudProduto/listaProdutos.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
+            <state relative-caret-position="36">
+              <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -132,7 +45,7 @@
       <file leaf-file-name="alteraProduto.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/crudProduto/alteraProduto.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="903">
+            <state relative-caret-position="993">
               <caret line="89" column="38" selection-start-line="89" selection-start-column="38" selection-end-line="89" selection-end-column="38" />
             </state>
           </provider>
@@ -141,17 +54,17 @@
       <file leaf-file-name="produtoDetalhes.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/crudProduto/produtoDetalhes.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
+            <state relative-caret-position="620">
               <caret line="46" column="75" selection-start-line="46" selection-start-column="75" selection-end-line="46" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="carrinho.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="carrinho.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/carrinho/carrinho.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="75" column="22" lean-forward="true" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
+            <state relative-caret-position="659">
+              <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -159,8 +72,8 @@
       <file leaf-file-name="Carrinho.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/sevletcarrinho/Carrinho.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+            <state relative-caret-position="234">
+              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -202,12 +115,12 @@
         <option value="$PROJECT_DIR$/src/br/edu/ifs/servletremovedocarrinho/RemoveDoCarrinho.java" />
         <option value="$PROJECT_DIR$/src/br/edu/ifs/util/FormataMoeda.java" />
         <option value="$PROJECT_DIR$/web/publica/perfil.jsp" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/sevletcarrinho/Carrinho.java" />
         <option value="$PROJECT_DIR$/web/include/cabecalho.jsp" />
-        <option value="$PROJECT_DIR$/web/carrinho/carrinho.jsp" />
         <option value="$PROJECT_DIR$/web/crudProduto/produtoDetalhes.jsp" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifs/sevletcarrinho/Carrinho.java" />
         <option value="$PROJECT_DIR$/web/crudProduto/listaProdutos.jsp" />
+        <option value="$PROJECT_DIR$/web/carrinho/carrinho.jsp" />
       </list>
     </option>
   </component>
@@ -233,10 +146,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="154" />
-    <option name="y" value="2" />
+    <option name="x" value="297" />
+    <option name="y" value="24" />
     <option name="width" value="957" />
-    <option name="height" value="676" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -269,7 +182,35 @@
               <item name="WebComercio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ifs" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebComercio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebComercio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ifs" type="462c0819:PsiDirectoryNode" />
+              <item name="esqueciminhasenha" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebComercio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebComercio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ifs" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebComercio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebComercio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ifs" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebComercio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebComercio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ifs" type="462c0819:PsiDirectoryNode" />
+              <item name="servletcategoria" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebComercio" type="b2602c69:ProjectViewProjectNode" />
@@ -284,6 +225,27 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ifs" type="462c0819:PsiDirectoryNode" />
               <item name="servletcompraproduto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebComercio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebComercio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ifs" type="462c0819:PsiDirectoryNode" />
+              <item name="servletproduto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebComercio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebComercio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ifs" type="462c0819:PsiDirectoryNode" />
+              <item name="servletremovedocarrinho" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebComercio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebComercio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ifs" type="462c0819:PsiDirectoryNode" />
+              <item name="servletusuario" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebComercio" type="b2602c69:ProjectViewProjectNode" />
@@ -495,15 +457,16 @@
       <workItem from="1529100656062" duration="2665000" />
       <workItem from="1529170579817" duration="10691000" />
       <workItem from="1529270230890" duration="3718000" />
-      <workItem from="1529280227944" duration="3734000" />
+      <workItem from="1529280227944" duration="8350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97227000" />
+    <option name="totallyTimeSpent" value="101843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="-4" width="1317" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -524,10 +487,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36334404" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34565917" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.44855306" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49678457" visible="true" weight="0.04084839" />
-      <window_info id="Web" order="2" sideWeight="0.50321543" side_tool="true" weight="0.23330715" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4949495" visible="true" weight="0.004713276" />
+      <window_info id="Web" order="2" sideWeight="0.5050505" side_tool="true" weight="0.071484685" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -850,48 +813,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/carrinho/carrinho.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="75" column="22" lean-forward="true" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/sevletcarrinho/Carrinho.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/crudProduto/produtoDetalhes.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
+        <state relative-caret-position="620">
           <caret line="46" column="75" selection-start-line="46" selection-start-column="75" selection-end-line="46" selection-end-column="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/crudProduto/alteraProduto.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
+        <state relative-caret-position="993">
           <caret line="89" column="38" selection-start-line="89" selection-start-column="38" selection-end-line="89" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/sevletcarrinho/Carrinho.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/crudProduto/listaProdutos.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
+        <state relative-caret-position="36">
+          <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/carrinho/carrinho.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
         </state>
       </provider>
     </entry>

@@ -69,19 +69,21 @@
                 <form action="../carrinho" method="get">
                     <input type="hidden" name="idProduto" value="<%=produto.getIdProduto()%>">
 
-                    <div class="container-fluid align-content-center">
+                    <div class="container">
                         <div class="row">
                             <div class="col-lg-3"></div>
-                            <div class="col-lg-7">
+                            <div class="col-lg-7 mx-auto">
                                 <input type="button" value="-" onclick="menos( 'quantidade<%=i%>' )">
                                 <input type="text" name="quantidade" id="quantidade<%=i%>" value="1" size="1"
                                        readonly="readonly">
                                 <input type="button" value="+" onclick="mais( 'quantidade<%=i%>' )">
+
+
+                                <input type="submit" class="btn btn-success mt-3 mx-auto" value="Add ao Carrinho">
                             </div>
                             <div class="col-lg-2"></div>
                         </div>
                     </div>
-                    <input type="submit" class="btn btn-success mt-3 ml-5" value="Add ao Carrinho">
                 </form>
             </div>
             <%}%>
