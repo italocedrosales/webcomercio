@@ -1,131 +1,57 @@
-<%@ page import="br.edu.ifs.model.Produto" %>
-<%@ page import="br.edu.ifs.dao.CategoriaDAO" %>
-<%@ page import="br.edu.ifs.model.Categoria" %>
-<%@ page import="java.util.List" %>
-<%@ page import="br.edu.ifs.model.Usuario" %>
 <%@ page import="br.edu.ifs.dao.ProdutoDAO" %>
+<%@ page import="br.edu.ifs.model.Produto" %>
+<%@ page import="br.edu.ifs.util.FormataMoeda" %>
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
     <title>Produtos</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../node_modules/css/animate.css">
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../node_modules/fontawesome-free-5.0.10/web-fonts-with-css/css/fontawesome-all.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
-          integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-    <link rel="stylesheet" href="../node_modules/css/index.css">
-    <link rel="stylesheet" href="<%=request.getContextPath()%>../node_modules/css/produtos.css">
+    <%@include file="../include/bootstrap.jsp" %>
+
+    <script type="text/javascript">
+        function id(el) {
+            return document.getElementById(el);
+        }
+
+        function menos(id_qnt) {
+            var qnt = parseInt(id(id_qnt).value);
+            if (qnt > 0)
+                id(id_qnt).value = qnt - 1;
+        }
+
+        function mais(id_qnt) {
+            id(id_qnt).value = parseInt(id(id_qnt).value) + 1;
+        }
+    </script>
 
 </head>
 <body>
-
-<%
-    Usuario usuario = (Usuario)
-            request.getSession().getAttribute("usuarioAutenticado");
-    if (usuario != null) {%>
-
-<div class="container-fluid bg-info d-none d-md-block d-block">
-    <div class="container">
-        <div class="row text-light pt-2 pb-2" style="color: white">
-            <div class="col-md-5"><i class="fa fa-envelope" aria-hidden="true"></i> <%=usuario.getEmail()%>
-            </div>
-            <div class="col-md-2"></div>
-            <div class="col-md-3"><i class="fa fa-user" aria-hidden="true"></i> <%=usuario.getNome()%>
-                <img class="img-fluid rounded mr-2 ml-2" src="<%="../"+usuario.getPathFoto()%>"
-                     alt="foto usuario" width="50px">
-                <a style="color: white" class="links" href="../autentica_usuario">Sair</a>
-            </div>
-            <div class="col-md-2 pt-1"><a style="color: white" class="links" href=""><i class="fa fa-cart-plus"
-                                                                                        aria-hidden="true"></i>
-                $0,00</a>
-            </div>
-        </div>
-    </div>
-</div>
-<% }%>
-
-<%--Navegação--%>
-<nav class="navbar navbar-expand-md navbar-dark sticky-top " style="background-color: rgba(0,0,0,0.7)">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="../index.jsp">
-            <img style="width: 50px" src="../img/logo2.png" alt="logo">
-            Web Comércio
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsivo">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse text-center" id="navbarResponsivo">
-            <ul class="navbar-nav ml-auto text-uppercase">
-
-                <%--links--%>
-                <li class="nav-item active"><a class="nav-link" href="../index.jsp">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Sobre</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Produtos</a></li>
-
-                <%--Dropdown--%>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="categoria" role="button"
-                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-th mr-1"></i>Categoria</a>
-
-                    <div class="dropdown-menu" aria-labelledby="categoria">
-                        <%
-                            Produto produtoCat = new Produto();
-                            CategoriaDAO catDao = new CategoriaDAO();
-                            List<Categoria> categorias = catDao.getListaCategoria();
-                            for (Categoria categoria : categorias) {
-                        %>
-                        <a class="dropdown-item"
-                           href="../crudProduto/listaProdutos.jsp?idCategoria=<%=produtoCat.getIdCategoria()%>"><%=categoria.getNome()%>
-                        </a>
-                        <%}%>
-                    </div>
-                </li>
-
-                <%--seção--%>
-                <% if (usuario != null) {%>
-                <li class="nav-item dropdown mr-5">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Serviços</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="../crudUsuario/cadastraUsuario.jsp">Cadastrar Usuário</a>
-                        <a class="dropdown-item" href="../crudUsuario/listaUsuario.jsp">Listar Usuários</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="../crudCategoria/cadastraCategoria.jsp">Cadastrar Categoria</a>
-                        <a class="dropdown-item" href="../crudCategoria/listaCategoria.jsp">Listar Categoria</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="../crudProduto/cadastraProduto.jsp">Cadastra Produtos</a>
-                        <a class="dropdown-item" href="../crudProduto/listaProdutos.jsp">Lista Produtos</a>
-                    </div>
-                </li>
-                <%}%>
-                <%--Botão login--%>
-                <li class="nav-item"><a class="btn btn-outline-info" href="../publica/login.jsp">Login</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
+<%@include file="../include/cabecalho.jsp" %>
 <%--Conteudo--%>
-<nav class="container-fluid pt-2" aria-label="breadcrumb">
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="../index.jsp">Home</a></li>
-        <li class="breadcrumb-item"><a href="../sobre.jsp">Sobre</a></li>
-        <li class="breadcrumb-item"><a href="../servicos.jsp">Serviços</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Produtos</li>
-    </ol>
-</nav>
+<%--<nav class="container-fluid pt-2" aria-label="breadcrumb">--%>
+<%--<ol class="breadcrumb" style="background: transparent">--%>
+<%--<li class="breadcrumb-item"><a href="../index.jsp">Home</a></li>--%>
+<%--<li class="breadcrumb-item"><a href="../publica/sobre.jsp">Sobre</a></li>--%>
+<%--<li class="breadcrumb-item active" aria-current="page">Produtos</li>--%>
+<%--</ol>--%>
+<%--</nav>--%>
+
+
 <div class="container-fluid">
+    <hr class="hr">
     <h1 class="text-info text-center h1">Produtos</h1>
+    <hr class="hr">
     <div class="container">
         <div class="row">
             <%
                 ProdutoDAO dao = new ProdutoDAO();
                 List<Produto> produtos = dao.getListaProduto();
+                int i = 0;
                 for (Produto produto : produtos) {
+                    i++;
             %>
             <div class="col-md-3 mt-1 produto-grid">
                 <div class="imagem">
+
                     <a href="produtoDetalhes.jsp?idProduto=<%=produto.getIdProduto()%>">
                         <img style="width: 100px; height: 200px" class="w-100 rounded img-fluid"
                              src="<%="../" + produto.getPathFoto()%>">
@@ -133,77 +59,38 @@
                             <div class="detalhes">Detalhes</div>
                         </div>
                     </a>
+
                 </div>
                 <h5 class="text-center text-info mt-3"><%=produto.getNome()%>
                 </h5>
-                <h5 class="text-center">R$ <%=produto.getValor()%>
+                <h5 class="text-center"><%=FormataMoeda.toString(produto.getValor())%>
                 </h5>
-                <a href="#" class="btn comprar">Comprar</a>
+
+                <form action="../carrinho" method="get">
+                    <input type="hidden" name="idProduto" value="<%=produto.getIdProduto()%>">
+
+                    <div class="container-fluid align-content-center">
+                        <div class="row">
+                            <div class="col-lg-3"></div>
+                            <div class="col-lg-7">
+                                <input type="button" value="-" onclick="menos( 'quantidade<%=i%>' )">
+                                <input type="text" name="quantidade" id="quantidade<%=i%>" value="1" size="1"
+                                       readonly="readonly">
+                                <input type="button" value="+" onclick="mais( 'quantidade<%=i%>' )">
+                            </div>
+                            <div class="col-lg-2"></div>
+                        </div>
+                    </div>
+                    <input type="submit" class="btn btn-success mt-3 ml-5" value="Add ao Carrinho">
+                </form>
             </div>
             <%}%>
         </div>
     </div>
 </div>
 
-<!--Footer-->
-<footer class="bg-dark text-light pt-4 mt-4">
+<%@include file="../include/rodape.jsp" %>
 
-    <!--Footer Links-->
-    <div class="container-fluid text-center text-md-left">
-        <div class="row">
-
-            <!--First column-->
-            <div class="col-md-4">
-                <h5 class=""></h5>
-                <p></p>
-            </div>
-            <!--/.First column-->
-
-            <div class="col-md-4">
-                <h5>Contato</h5>
-                <ul>
-                    <li><a href=""></a>Telefone:</li>
-                    <li><a href=""></a>Endereço:</li>
-                    <li><a href=""></a>E-mail:</li>
-                </ul>
-            </div>
-
-
-            <div class="col-md-4">
-                <h5 class="">Redes Sociais</h5>
-                <ul class="">
-                    <li>
-                        <a href="#">FaceBook</a>
-                    </li>
-                    <li>
-                        <a href="#">Twitter</a>
-                    </li>
-                    <li>
-                        <a href="#">Google++</a>
-                    </li>
-                    <li>
-                        <a href="#">Instagran</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!--/.Footer Links-->
-
-    <!--Copyright-->
-    <div class="container-fluid text-center bg-dark">
-        <p class="text-light">&copy; 2018 Copyright:<a class="text-light" href="../index.jsp"> WebComércio.com </a></p>
-    </div>
-    <!--/.Copyright-->
-
-</footer>
-<!--/.Footer-->
-
-<%--JavaScript--%>
-<script src="../node_modules/jquery/dist/jquery.min.js"></script>
-<script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
-<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="../node_modules/js/my.js"></script>
 
 </body>
 </html>

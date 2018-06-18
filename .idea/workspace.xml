@@ -6,14 +6,100 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="675f1e9a-e3f8-43a5-9f6b-19689734b973" name="Default" comment="">
+    <list default="true" id="8583cda4-9b5c-4a45-8812-f8664cc9550e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifs/servletremovedocarrinho/RemoveDoCarrinho.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifs/sevletcarrinho/Carrinho.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/ifs/util/FormataMoeda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/carrinho/carrinho.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/include/bootstrap.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/include/cabecalho.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/include/rodape.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/WebComercio_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/WebComercio_Web_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebComercio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WebComercio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosProdutos/produto_10_586.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosProdutos/produto_6_63.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosProdutos/produto_7_101.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosProdutos/produto_7_216.0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosProdutos/produto_7_772.0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosProdutos/produto_8_789.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosProdutos/produto_9_177.0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosProdutos/produto_9_227.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosProdutos/produto_9_5.0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosProdutos/produto_9_948.0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosUsuarios/usuario_31_95.0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosUsuarios/usuario_32_211.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosUsuarios/usuario_32_561.0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosUsuarios/usuario_34_112.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosUsuarios/usuario_34_440.0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosUsuarios/usuario_34_550.0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosUsuarios/usuario_34_626.0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosUsuarios/usuario_36_796.0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosUsuarios/usuario_37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosUsuarios/usuario_37_738.0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosUsuarios/usuario_38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/FotosUsuarios/usuario_39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/WEB-INF/classes/br/edu/ifs/model/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/WEB-INF/classes/br/edu/ifs/model/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/WEB-INF/classes/br/edu/ifs/servletusuario/AutenticaUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/WEB-INF/classes/br/edu/ifs/servletusuario/AutenticaUsuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudProduto/alteraProduto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudProduto/alteraProduto.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudProduto/cadastraProduto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudProduto/cadastraProduto.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudProduto/excluiProduto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudProduto/excluiProduto.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudProduto/listaProdutos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudProduto/listaProdutos.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudProduto/produtoDetalhes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudProduto/produtoDetalhes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudUsuario/alteraUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudUsuario/alteraUsuario.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudUsuario/cadastraUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudUsuario/cadastraUsuario.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudUsuario/excluiUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/crudUsuario/excluiUsuario.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/img/cama e banho.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/img/cama-hd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/img/slide1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/img/slide2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/img/slide3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/img/slides/slide1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/img/slides/slide2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/img/slides/slide3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/img/slides/slide4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/img/slides/slide7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/img/slides/slide8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/img/slides/slide9.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/node_modules/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/node_modules/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/ifs/dao/CategoriaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifs/dao/CategoriaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/publica/contato.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/publica/contato.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/publica/perfil.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/publica/perfil.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/publica/sobre.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebComercio_Web_exploded/publica/sobre.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebComercio/br/edu/ifs/model/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebComercio/br/edu/ifs/model/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WebComercio/br/edu/ifs/servletusuario/AutenticaUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WebComercio/br/edu/ifs/servletusuario/AutenticaUsuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifs/filter/FilterAutenticacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifs/filter/FilterAutenticacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifs/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifs/model/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/ifs/servletusuario/AutenticaUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/ifs/servletusuario/AutenticaUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/crudProduto/alteraProduto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/crudProduto/alteraProduto.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/crudProduto/cadastraProduto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/crudProduto/cadastraProduto.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/crudProduto/excluiProduto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/crudProduto/excluiProduto.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/crudProduto/listaProdutos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/crudProduto/listaProdutos.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/crudProduto/produtoDetalhes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/crudProduto/produtoDetalhes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/crudUsuario/alteraUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/crudUsuario/alteraUsuario.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/crudUsuario/cadastraUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/crudUsuario/cadastraUsuario.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/crudUsuario/excluiUsuario.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/crudUsuario/excluiUsuario.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/cama e banho.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/cama-hd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/slide1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/slide2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/slide3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/slides/slide1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/slides/slide2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/slides/slide3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/slides/slide4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/slides/slide7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/slides/slide8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/slides/slide9.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/node_modules/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/node_modules/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/publica/contato.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/publica/contato.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/publica/perfil.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/publica/perfil.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/publica/sobre.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/publica/sobre.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,49 +109,61 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="281" column="52" selection-start-line="281" selection-start-column="52" selection-end-line="281" selection-end-column="52" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#12853#12859#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="produtoDetalhes.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/crudProduto/produtoDetalhes.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-254">
-              <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listaProdutos.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="listaProdutos.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/crudProduto/listaProdutos.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="107" lean-forward="true" selection-start-line="22" selection-end-line="107" />
+            <state relative-caret-position="80">
+              <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alteraProduto.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/crudProduto/alteraProduto.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="903">
+              <caret line="89" column="38" selection-start-line="89" selection-start-column="38" selection-end-line="89" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="produtoDetalhes.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/crudProduto/produtoDetalhes.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="46" column="75" selection-start-line="46" selection-start-column="75" selection-end-line="46" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="carrinho.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/carrinho/carrinho.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="75" column="22" lean-forward="true" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Carrinho.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/sevletcarrinho/Carrinho.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,17 +173,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="Jsp File" />
-        <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>categoria</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -93,57 +183,31 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/crudCompra/cadastraCompra.jsp" />
-        <option value="$PROJECT_DIR$/web/crudCompra/listaCompra.jsp" />
-        <option value="$PROJECT_DIR$/web/crudCompra/alteraCompra.jsp" />
-        <option value="$PROJECT_DIR$/web/crudCompra/excluiCompra.jsp" />
-        <option value="$PROJECT_DIR$/web/node_modules/style.css" />
-        <option value="$PROJECT_DIR$/web/node_modules/css/animate.css" />
-        <option value="$PROJECT_DIR$/web/node_modules/js/my.js" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/model/Usuario.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/autenticausuario/AutenticaUsuario.java" />
-        <option value="$PROJECT_DIR$/web/node_modules/css/style.css" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/servletusuario/UsuarioDao.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/filter/Filter.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifs/Carrinho.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifs/model/Produto.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifs/sevlet/carrinho/Carrinho.java" />
+        <option value="$PROJECT_DIR$/web/crudUsuario/cadastraUsuario.jsp" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifs/filter/FilterAutenticacao.java" />
+        <option value="$PROJECT_DIR$/web/node_modules/css/index.css" />
         <option value="$PROJECT_DIR$/src/br/edu/ifs/servletusuario/AutenticaUsuario.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/servletusuario/ExcluiUsuario.java" />
-        <option value="$PROJECT_DIR$/web/perfil.jsp" />
+        <option value="$PROJECT_DIR$/web/crudUsuario/excluiUsuario.jsp" />
+        <option value="$PROJECT_DIR$/web/crudUsuario/alteraUsuario.jsp" />
+        <option value="$PROJECT_DIR$/web/include/rodape.jsp" />
+        <option value="$PROJECT_DIR$/web/crudProduto/cadastraProduto.jsp" />
+        <option value="$PROJECT_DIR$/web/crudProduto/excluiProduto.jsp" />
+        <option value="$PROJECT_DIR$/web/crudProduto/alteraProduto.jsp" />
+        <option value="$PROJECT_DIR$/web/include/bootstrap.jsp" />
         <option value="$PROJECT_DIR$/web/publica/sobre.jsp" />
         <option value="$PROJECT_DIR$/web/publica/contato.jsp" />
-        <option value="$PROJECT_DIR$/web/crudUsuario/cadastraUsuario.jsp" />
-        <option value="$PROJECT_DIR$/web/crudCategoria/listaCategoria.jsp" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/servletproduto/CadastraProduto.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/servletcategoria/CadastraCategoria.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/servletcategoria/AlteraCategoria.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/servletcategoria/ExcluiCategoria.java" />
-        <option value="$PROJECT_DIR$/web/crudCategoria/excluiCategoria.jsp" />
-        <option value="$PROJECT_DIR$/web/crudCategoria/alteraCategoria.jsp" />
-        <option value="$PROJECT_DIR$/web/crudCategoria/cadastraCategoria.jsp" />
-        <option value="$PROJECT_DIR$/web/node_modules/css/produtos.css" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/servletproduto/ExcluiProduto.java" />
-        <option value="$PROJECT_DIR$/web/crudProduto/excluiProduto.jsp" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/filter/FilterAutenticacao.java" />
-        <option value="$PROJECT_DIR$/web/crudUsuario/alteraUsuario.jsp" />
-        <option value="$PROJECT_DIR$/web/crudProduto/cadastraProduto.jsp" />
-        <option value="$PROJECT_DIR$/web/crudProduto/alteraProduto.jsp" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/dao/ProdutoDAO.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/model/Produto.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/servletproduto/AlteraProduto.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/servletusuario/AlteraUsuario.java" />
-        <option value="$PROJECT_DIR$/web/crudUsuario/excluiUsuario.jsp" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/dao/UsuarioDAO.java" />
-        <option value="$PROJECT_DIR$/web/crudUsuario/listaUsuario.jsp" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/servletusuario/CadastraUsuario.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/util/EnviarEmail.java" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/esqueciminhasenha/EsqueciMinhaSenha.java" />
-        <option value="$PROJECT_DIR$/web/publica/esqueciminhasenha.jsp" />
-        <option value="$PROJECT_DIR$/web/publica/login.jsp" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifs/servletremovedocarrinho/RemoveDoCarrinho.java" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifs/util/FormataMoeda.java" />
         <option value="$PROJECT_DIR$/web/publica/perfil.jsp" />
-        <option value="$PROJECT_DIR$/web/node_modules/css/index.css" />
-        <option value="$PROJECT_DIR$/src/br/edu/ifs/dao/CategoriaDAO.java" />
-        <option value="$PROJECT_DIR$/web/crudProduto/listaProdutos.jsp" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/br/edu/ifs/sevletcarrinho/Carrinho.java" />
+        <option value="$PROJECT_DIR$/web/include/cabecalho.jsp" />
+        <option value="$PROJECT_DIR$/web/carrinho/carrinho.jsp" />
         <option value="$PROJECT_DIR$/web/crudProduto/produtoDetalhes.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/crudProduto/listaProdutos.jsp" />
       </list>
     </option>
   </component>
@@ -156,15 +220,9 @@
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="false" />
-    <option name="FILTER_DEBUG" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/web/node_modules" />
@@ -174,14 +232,11 @@
       <path value="$PROJECT_DIR$/web/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="154" />
     <option name="y" value="2" />
     <option name="width" value="957" />
     <option name="height" value="676" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -189,8 +244,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,13 +261,66 @@
             <path>
               <item name="WebComercio" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebComercio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ifs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebComercio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebComercio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ifs" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebComercio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebComercio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ifs" type="462c0819:PsiDirectoryNode" />
+              <item name="servletcompra" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebComercio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebComercio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ifs" type="462c0819:PsiDirectoryNode" />
+              <item name="servletcompraproduto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebComercio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebComercio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ifs" type="462c0819:PsiDirectoryNode" />
+              <item name="sevletcarrinho" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebComercio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebComercio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ifs" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebComercio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebComercio" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebComercio" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebComercio" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="carrinho" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebComercio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebComercio" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="crudProduto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebComercio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebComercio" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -223,29 +331,16 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/mail-1.4.1.jar!/" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/postgresql-42.2.2.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.1484375" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2015177" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web/publica" />
-      <recent name="$PROJECT_DIR$/web/WEB-INF" />
-      <recent name="$PROJECT_DIR$/web/crudUsuario" />
-      <recent name="$PROJECT_DIR$/web/img" />
-      <recent name="$PROJECT_DIR$/web/node_modules/css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web/node_modules/js" />
-      <recent name="$PROJECT_DIR$/web/img" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="br.edu.ifs.servletusuario" />
+      <recent name="$PROJECT_DIR$/src/br/edu/ifs/util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -302,10 +397,9 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Tomcat 8.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.27" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/" />
-      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+    <configuration name="Tomcat 8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.27" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
         <artifact name="WebComercio:Web exploded">
           <settings>
@@ -314,8 +408,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_0_27_WebComercio" />
-        <option name="HTTP_PORT" value="8081" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_WebComercio_7" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -323,7 +416,7 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="37037" />
+        <option name="DEBUG_PORT" value="41049" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -382,122 +475,61 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="675f1e9a-e3f8-43a5-9f6b-19689734b973" name="Default" comment="" />
-      <created>1523657897630</created>
+      <changelist id="8583cda4-9b5c-4a45-8812-f8664cc9550e" name="Default" comment="" />
+      <created>1528499730340</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1523657897630</updated>
-      <workItem from="1523657899884" duration="18591000" />
-      <workItem from="1523754358057" duration="8033000" />
-      <workItem from="1523810752071" duration="20863000" />
-      <workItem from="1523910873772" duration="173000" />
-      <workItem from="1523916472396" duration="14865000" />
-      <workItem from="1524003304919" duration="5781000" />
-      <workItem from="1524019115302" duration="1585000" />
-      <workItem from="1524073018027" duration="5664000" />
-      <workItem from="1524086524262" duration="7011000" />
-      <workItem from="1524153270750" duration="13497000" />
-      <workItem from="1524175739011" duration="7749000" />
-      <workItem from="1524237430833" duration="560000" />
-      <workItem from="1524368329261" duration="7680000" />
-      <workItem from="1524442741485" duration="1723000" />
-      <workItem from="1524521403676" duration="8899000" />
-      <workItem from="1524606886068" duration="1066000" />
-      <workItem from="1524608665229" duration="5858000" />
-      <workItem from="1524623784856" duration="9606000" />
-      <workItem from="1524695601026" duration="4550000" />
-      <workItem from="1524705715517" duration="730000" />
-      <workItem from="1524785444898" duration="1199000" />
-      <workItem from="1525124040007" duration="848000" />
-      <workItem from="1525298956899" duration="7504000" />
-      <workItem from="1525312685517" duration="5422000" />
-      <workItem from="1525389108497" duration="696000" />
-      <workItem from="1525473038247" duration="5083000" />
-      <workItem from="1525485314449" duration="8659000" />
-      <workItem from="1525544477214" duration="22293000" />
-      <workItem from="1525629598505" duration="5376000" />
-      <workItem from="1525818196051" duration="2254000" />
-      <workItem from="1525905119910" duration="1907000" />
-      <workItem from="1525989421267" duration="1684000" />
-      <workItem from="1526076948404" duration="6264000" />
-      <workItem from="1526325946553" duration="351000" />
-      <workItem from="1526326466646" duration="455000" />
-      <workItem from="1526327104140" duration="1572000" />
-      <workItem from="1526328830196" duration="470000" />
-      <workItem from="1526329419655" duration="335000" />
-      <workItem from="1526329873072" duration="115000" />
-      <workItem from="1526330109076" duration="75000" />
-      <workItem from="1526330265520" duration="202000" />
-      <workItem from="1526331889001" duration="42000" />
-      <workItem from="1526331979335" duration="94000" />
-      <workItem from="1526332109249" duration="2764000" />
-      <workItem from="1526337441028" duration="7256000" />
-      <workItem from="1526348662436" duration="4628000" />
-      <workItem from="1526427303875" duration="3995000" />
-      <workItem from="1526512699458" duration="4504000" />
-      <workItem from="1526570277774" duration="1423000" />
-      <workItem from="1526571787599" duration="5950000" />
-      <workItem from="1526675601516" duration="2203000" />
-      <workItem from="1526681453764" duration="9882000" />
-      <workItem from="1526693325428" duration="11937000" />
-      <workItem from="1527078120509" duration="2667000" />
-      <workItem from="1527092889838" duration="13916000" />
-      <workItem from="1527112490728" duration="7146000" />
-      <workItem from="1527163850914" duration="8252000" />
-      <workItem from="1527257443574" duration="1071000" />
-      <workItem from="1527286509570" duration="8892000" />
-      <workItem from="1527355225220" duration="22859000" />
-      <workItem from="1527451871233" duration="687000" />
-      <workItem from="1527549709654" duration="2759000" />
-      <workItem from="1527633628376" duration="865000" />
-      <workItem from="1527644246723" duration="147000" />
-      <workItem from="1527866834642" duration="651000" />
-      <workItem from="1528148872105" duration="1825000" />
-      <workItem from="1528310249595" duration="5830000" />
-      <workItem from="1528323007181" duration="651000" />
+      <updated>1528499730340</updated>
+      <workItem from="1528499736583" duration="2464000" />
+      <workItem from="1528583318169" duration="6161000" />
+      <workItem from="1528657666906" duration="1300000" />
+      <workItem from="1528667821535" duration="6228000" />
+      <workItem from="1528753961302" duration="897000" />
+      <workItem from="1528845544762" duration="1183000" />
+      <workItem from="1528892258462" duration="3890000" />
+      <workItem from="1528910171428" duration="14755000" />
+      <workItem from="1528978522312" duration="9389000" />
+      <workItem from="1528992473067" duration="12241000" />
+      <workItem from="1529012342721" duration="5310000" />
+      <workItem from="1529064853067" duration="12601000" />
+      <workItem from="1529100656062" duration="2665000" />
+      <workItem from="1529170579817" duration="10691000" />
+      <workItem from="1529270230890" duration="3718000" />
+      <workItem from="1529280227944" duration="3734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="350144000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="97227000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="-11" width="1319" height="780" extended-state="6" />
+    <frame x="49" y="-4" width="1317" height="772" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.329582" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.329582" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32914376" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Designer" order="1" />
-      <window_info anchor="right" id="Database" order="7" weight="0.32914376" />
-      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24941176" />
-      <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38102895" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.329582" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.3279743" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.329582" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.329582" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4437299" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.6254019" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.48699763" weight="0.21052632" />
-      <window_info id="Web" order="5" sideWeight="0.51300234" side_tool="true" weight="0.18695994" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36334404" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.44855306" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49678457" visible="true" weight="0.04084839" />
+      <window_info id="Web" order="2" sideWeight="0.50321543" side_tool="true" weight="0.23330715" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -505,39 +537,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.329582" />
-      <window_info id="Designer" order="1" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26688102" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24941176" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.6254019" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.329582" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.3279743" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.329582" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.329582" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32914376" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.48699763" visible="true" weight="0.1759623" />
-      <window_info anchor="right" id="Database" order="7" weight="0.32914376" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Web" order="5" sideWeight="0.51300234" side_tool="true" weight="0.18695994" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38102895" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -547,369 +546,352 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="41" />
+      <option name="time" value="1" />
     </breakpoint-manager>
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3834">
+          <caret line="213" column="32" selection-start-line="213" selection-start-column="32" selection-end-line="213" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/node_modules/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/node_modules/css/login.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/node_modules/css/produtos.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/publica/perfil.jsp">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2448">
+          <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/crudProduto/listaProdutos.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2664">
+          <caret line="148" column="36" selection-start-line="148" selection-start-column="36" selection-end-line="148" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/carrinho/carrinho.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/sevletcarrinho/Carrinho.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="14" column="67" lean-forward="true" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/model/Produto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2610">
+          <caret line="145" column="32" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        <state relative-caret-position="5220">
+          <caret line="290" selection-start-line="220" selection-end-line="290" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/crudProduto/listaProdutos.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2664">
+          <caret line="148" column="36" selection-start-line="148" selection-start-column="36" selection-end-line="148" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/carrinho/carrinho.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/sevletcarrinho/Carrinho.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/model/Produto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="145" column="32" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/publica/perfil.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2448">
+          <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/crudProduto/listaProdutos.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/dao/ProdutoDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2322">
-          <caret line="129" selection-start-line="129" selection-end-line="129" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/cama e banho.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../alterar foto.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/publica/sobre.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/publica/contato.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/model/Usuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-468">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/npm-debug.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1134" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/crudCategoria/listaCategoria.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-684">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/model/CompraProduto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/servletcategoria/AlteraCategoria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/servletcategoria/ExcluiCategoria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/servletcategoria/CadastraCategoria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/crudCategoria/excluiCategoria.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1926">
-          <caret line="112" column="25" selection-start-line="112" selection-start-column="25" selection-end-line="112" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/crudCategoria/alteraCategoria.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1289">
-          <caret line="177" column="15" selection-start-line="177" selection-start-column="15" selection-end-line="177" selection-end-column="15" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/crudCategoria/cadastraCategoria.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1969">
-          <caret line="109" column="86" selection-start-line="109" selection-start-column="86" selection-end-line="109" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/servletusuario/ExcluiUsuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/servletproduto/ExcluiProduto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="16" column="76" lean-forward="true" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/node_modules/bootstrap/scss/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15249" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/dao/ConnectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/crudProduto/excluiProduto.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1926">
-          <caret line="165" column="42" selection-start-line="165" selection-start-column="42" selection-end-line="165" selection-end-column="42" />
+        <state relative-caret-position="-846">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/node_modules/css/produtos.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/node_modules/css/login.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/img/slides/slide3.jpeg" />
+    <entry file="file://$PROJECT_DIR$/web/img/slides/slide2.jpeg" />
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/esqueciminhasenha/EsqueciMinhaSenha.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="234">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/filter/FilterAutenticacao.java">
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/util/EnviarEmail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        <state relative-caret-position="306">
+          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/crudUsuario/cadastraUsuario.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="64" column="58" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
+        <state relative-caret-position="288">
+          <caret line="122" column="33" selection-start-line="122" selection-start-column="33" selection-end-line="122" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/crudProduto/cadastraProduto.jsp">
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/filter/FilterAutenticacao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-848">
-          <caret line="80" column="45" lean-forward="true" selection-start-line="80" selection-start-column="45" selection-end-line="80" selection-end-column="45" />
+        <state relative-caret-position="219">
+          <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/crudUsuario/excluiUsuario.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/crudUsuario/alteraUsuario.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="161" selection-start-line="161" selection-end-line="161" />
+        <state relative-caret-position="-216">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/servletusuario/AlteraUsuario.java">
+    <entry file="file://$PROJECT_DIR$/web/include/rodape.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="64" column="68" selection-start-line="64" selection-start-column="68" selection-end-line="64" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/model/Produto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="40" column="160" selection-start-line="40" selection-start-column="160" selection-end-line="40" selection-end-column="160" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/servletproduto/AlteraProduto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="72" column="68" selection-start-line="72" selection-start-column="68" selection-end-line="72" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/img/logo2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/crudProduto/alteraProduto.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1170">
-          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/crudUsuario/excluiUsuario.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="143" column="40" selection-start-line="143" selection-start-column="40" selection-end-line="143" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/dao/UsuarioDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2356">
-          <caret line="182" column="32" lean-forward="true" selection-start-line="182" selection-start-column="32" selection-end-line="182" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/crudUsuario/listaUsuario.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1080">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/servletproduto/CadastraProduto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="70" column="83" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/servletusuario/AutenticaUsuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/util/EnviarEmail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/publica/esqueciminhasenha.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/esqueciminhasenha/EsqueciMinhaSenha.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/node_modules/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="63" selection-start-column="63" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/publica/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="78" column="65" selection-start-line="78" selection-start-column="65" selection-end-line="78" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/publica/perfil.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2286">
-          <caret line="127" column="25" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/servletusuario/CadastraUsuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="76" column="49" selection-start-line="76" selection-start-column="49" selection-end-line="76" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/dao/ProdutoDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="162" lean-forward="true" selection-start-line="139" selection-start-column="4" selection-end-line="162" />
+        <state relative-caret-position="720">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/node_modules/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/dao/CategoriaDAO.java">
+    <entry file="file://$PROJECT_DIR$/web/include/bootstrap.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="81" selection-start-line="6" selection-start-column="81" selection-end-line="6" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/crudProduto/excluiProduto.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="142" column="64" selection-start-line="142" selection-start-column="64" selection-end-line="142" selection-end-column="64" />
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/servletremovedocarrinho/RemoveDoCarrinho.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/publica/sobre.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/publica/contato.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/servletusuario/AutenticaUsuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="43" column="58" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/dao/UsuarioDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/dao/ConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/servletusuario/CadastraUsuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/model/Produto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="145" column="32" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="32" />
+          <folding>
+            <element signature="e#3790#3791#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/model/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/publica/perfil.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="142" column="34" selection-start-line="142" selection-start-column="34" selection-end-line="142" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/util/FormataMoeda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/include/cabecalho.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/crudProduto/cadastraProduto.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/carrinho/carrinho.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="75" column="22" lean-forward="true" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/edu/ifs/sevletcarrinho/Carrinho.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="281" column="52" selection-start-line="281" selection-start-column="52" selection-end-line="281" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#12853#12859#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/crudProduto/listaProdutos.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="107" lean-forward="true" selection-start-line="22" selection-end-line="107" />
+        <state relative-caret-position="180">
+          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/crudProduto/produtoDetalhes.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-254">
-          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+        <state relative-caret-position="494">
+          <caret line="46" column="75" selection-start-line="46" selection-start-column="75" selection-end-line="46" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/crudProduto/alteraProduto.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="89" column="38" selection-start-line="89" selection-start-column="38" selection-end-line="89" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/crudProduto/listaProdutos.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="69" column="50" selection-start-line="69" selection-start-column="50" selection-end-line="69" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -918,14 +900,7 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor>
-            <show-content>
-              <type id="artifact" />
-              <type id="javaee-facet-resources" />
-              <type id="jpa-descriptors" />
-              <type id="library" />
-            </show-content>
-          </artifact-editor>
+          <artifact-editor />
           <last-edited>WebComercio:Web exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
@@ -998,6 +973,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

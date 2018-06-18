@@ -46,7 +46,7 @@ public class AutenticaUsuario extends HttpServlet {
 
             // 5 minutos para expirar a sessão (em segundos)
             sessao.setMaxInactiveInterval(60 * 5);
-            request.getRequestDispatcher("index.jsp").forward(request, response);
+            request.getRequestDispatcher("publica/perfil.jsp").forward(request, response);
         } else {
             request.setAttribute("msg", "Login ou senha invalido!");
             request.getRequestDispatcher("publica/login.jsp").forward(request, response);

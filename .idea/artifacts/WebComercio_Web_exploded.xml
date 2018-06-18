@@ -8,6 +8,9 @@
           <element id="module-output" name="WebComercio" />
         </element>
         <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/activation-1.1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-email-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mail-1.4.1.jar" />
           <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/postgresql-42.2.2.jar" />
         </element>
       </element>

@@ -11,32 +11,10 @@
 </head>
 
 <body>
-<%
-    Usuario usuario = (Usuario)
-            request.getSession().getAttribute("usuarioAutenticado");
-    if (usuario != null) {%>
-
-<div class="container-fluid bg-info d-none d-md-block d-block">
-    <div class="container">
-        <div class="row text-light pt-2 pb-2">
-            <div class="col-md-5"><i class="fa fa-envelope" aria-hidden="true"></i> <%=usuario.getEmail()%>
-            </div>
-            <div class="col-md-2"></div>
-            <div class="col-md-3"><i class="fa fa-user" aria-hidden="true"></i> <%=usuario.getNome()%>
-                <img class="img-fluid" src="<%="../"+usuario.getPathFoto()%>" alt="foto usuario" width="50px"
-                     height="50px">
-                <a class="links" href="../autentica_usuario">Sair</a>
-            </div>
-            <div class="col-md-2"><a class="links" href=""><i class="fa fa-cart-plus" aria-hidden="true"></i> $0,00</a>
-            </div>
-        </div>
-    </div>
-</div>
-<% }%>
 
 <%--Navegação--%>
 <nav class="navbar navbar-expand-md navbar-dark sticky-top p-0" style="background-color: rgba(0,0,0,0.7)">
-    <div class="container-fluid">
+    <div class="container p-2">
         <a class="navbar-brand" href="../index.jsp">
             <img style="width: 50px" src="../img/logo2.png" alt="logo">
             Web Comércio
@@ -47,34 +25,18 @@
         <div class="collapse navbar-collapse text-center" id="navbarResponsivo">
             <ul class="navbar-nav ml-auto text-uppercase">
                 <li class="nav-item active"><a class="nav-link" href="../index.jsp">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Sobre</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Serviços</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Produtos</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Contato</a></li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Seções</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="../crudUsuario/cadastraUsuario.jsp">Cadastrar Usuário</a>
-                        <a class="dropdown-item" href="../crudUsuario/listaUsuario.jsp">Listar Usuários</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="../crudCategoria/cadastraCategoria.jsp">Cadastrar Categoria</a>
-                        <a class="dropdown-item" href="../crudCategoria/listaCategoria.jsp">Listar Categoria</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="../crudProduto/cadastraProduto.jsp">Cadastra Produtos</a>
-                        <a class="dropdown-item" href="../crudProduto/listaProduto">Lista Produtos</a>
-                    </div>
-                </li>
-                <li class="nav-item"><a class="btn btn-outline-info" href="../publica/login.jsp"> Minha Loja</a></li>
+                <li class="nav-item"><a class="nav-link" href="../publica/sobre.jsp">Sobre</a></li>
+                <li class="nav-item"><a class="nav-link" href="../crudProduto/listaProdutos.jsp">Produtos</a></li>
+                <li class="nav-item"><a class="nav-link" href="../publica/contato.jsp">Contato</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
 <div class="container-fluid">
-
+    <hr class="hr">
     <h1 class="text-center text-info">Formulário de Cadastro</h1>
-
+    <hr class="hr">
     <div class="container mx-auto" style="width: 500px">
         <form action="../cadastra_usuario" method="post" enctype="multipart/form-data">
             <div class="form-group">
@@ -140,8 +102,9 @@
             <div class="form-group">
                 <label for="tipoUsuario">Tipo de Usuario:</label>
                 <select class="form-control" id="tipoUsuario" name="tipoUsuario">
-                    <option value="1">1°- Usuário</option>
-                    <option value="2">2°- Logista</option>
+                    <option value="1">1°- Cliente</option>
+                    <option value="2">2°- Empresa</option>
+                    <option value="3">Admin</option>
                 </select>
             </div>
             <div class="form-group">
@@ -157,35 +120,56 @@
     </div>
 </div>
 
+<div class="container-fluid mb-0 mt-3" style="background: linear-gradient(45deg, #1675ff, #3bbeff)">
+    <div class="row" style="height: 20px"></div>
+</div>
+
 <!--Footer-->
-<footer class="page-footer font-small blue pt-4 mt-4 bg-dark">
+<footer class="bg-dark text-light pt-3">
 
     <!--Footer Links-->
     <div class="container-fluid text-center text-md-left">
         <div class="row">
 
             <!--First column-->
-            <div class="col-md-6 text-dark">
-                <h5 class="text-uppercase">Footer Content</h5>
-                <p>Here you can use rows and columns here to organize your footer content.</p>
+            <div class="col-lg-3">
+                <div class="row">
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4">
+                        <h5 class="text-center">Localização</h5>
+                        <iframe class="m-2"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.284058532884!2d-38.01017815009233!3d-11.16659122915086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x711b2ef8389b869%3A0xf53700297625cf8f!2sIFS+-+Instituto+Federal+de+Sergipe%2C+Campus+Tobias+Barreto!5e0!3m2!1spt-BR!2sbr!4v1527382277870"
+                                width="250" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-lg-4"></div>
+                </div>
             </div>
-            <!--/.First column-->
+            <div class="col-lg-3"></div>
+
+            <div class="col-lg-3">
+                <h5 class="">Contato</h5>
+                <ul>
+                    <li><a href=""></a>Telefone:</li>
+                    <li><a href=""></a>Endereço:</li>
+                    <li><a href=""></a>E-mail:</li>
+                </ul>
+            </div>
 
             <!--Second column-->
-            <div class="col-md-6">
-                <h5 class="text-uppercase">Links</h5>
-                <ul class="list-unstyled text-dark">
+            <div class="col-lg-3">
+                <h5 class="">Redes Sociais</h5>
+                <ul class="">
                     <li>
-                        <a href="#!">Link 1</a>
+                        <a href="#">FaceBook</a>
                     </li>
                     <li>
-                        <a href="#!">Link 2</a>
+                        <a href="#">Twitter</a>
                     </li>
                     <li>
-                        <a href="#!">Link 3</a>
+                        <a href="#">Google++</a>
                     </li>
                     <li>
-                        <a href="#!">Link 4</a>
+                        <a href="#">Instagran</a>
                     </li>
                 </ul>
             </div>
@@ -195,14 +179,17 @@
     <!--/.Footer Links-->
 
     <!--Copyright-->
-    <div class="footer-copyright py-3 text-center">
-        <p>© 2018 Copyright:<a href="../index.jsp"> WebComércio.com </a></p>
+    <div class=" row container-fluid bg-dark mt-2">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+            <p class="text-light text-center">&copy; 2018 Copyright:<a class="text-light" href="index.jsp">
+                WebComércio.com </a></p>
+        </div>
+        <div class="col-lg-4"></div>
     </div>
     <!--/.Copyright-->
-
 </footer>
 <!--/.Footer-->
-
 
 <%--JavaScript--%>
 <script src="../node_modules/jquery/dist/jquery.min.js"></script>

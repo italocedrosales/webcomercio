@@ -14,6 +14,7 @@ public class Produto {
 		IdUsuario = idUsuario;
 		IdCategoria = idCategoria;
 		this.pathFoto = pathFoto;
+
 	}
 	
 	public Produto(long codigoBarra, String nome, String descricao, String marca, float valor, String modelo,
@@ -50,6 +51,20 @@ public class Produto {
 		this.pathFoto = pathFoto;
 	}
 
+    public Produto(int idProduto, long codigoBarra, String nome, String descricao, String marca, float valor, String modelo, int idUsuario, int idCategoria, String pathFoto, int quantidade) {
+        this.idProduto = idProduto;
+        this.codigoBarra = codigoBarra;
+        this.nome = nome;
+        this.descricao = descricao;
+        this.marca = marca;
+        this.valor = valor;
+        this.modelo = modelo;
+        IdUsuario = idUsuario;
+        IdCategoria = idCategoria;
+        this.pathFoto = pathFoto;
+        this.quantidade = quantidade;
+    }
+
 	public Produto() {
 	}
 
@@ -63,8 +78,9 @@ public class Produto {
 	private int IdUsuario;
 	private int IdCategoria;
 	private String pathFoto;
-	
-	public int getIdProduto() {
+	private int quantidade;
+
+    public int getIdProduto() {
 		return idProduto;
 	}
 	public void setIdProduto(int idProduto) {
@@ -125,5 +141,13 @@ public class Produto {
 
     public void setPathFoto(String pathFoto) {
         this.pathFoto = pathFoto;
+    }
+
+    public int getQuantidade() {
+        return quantidade;
+    }
+
+    public void setQuantidade(int quantidade) {
+        this.quantidade = quantidade;
     }
 }
